@@ -1,0 +1,100 @@
+.nutrition {
+	> ul {
+		@media (min-width: 24rem) {
+			column-count: 2;
+
+			> li:nth-child(5) {
+				display: inline-block;
+				width: 100%;
+			}
+		}
+	}
+
+	li li {
+		margin-bottom: 0;
+	}
+
+	@supports (display: flex) {
+		ul {
+			width: 100%;
+			padding: 0;
+
+			li {
+				display: flex;
+				flex-wrap: wrap;
+				position: relative;
+
+				sup {
+					align-self: self-start;
+				}
+
+				sub {
+					align-self: self-end;
+				}
+
+				li {
+					flex-wrap: nowrap;
+				}
+			}
+
+			em {
+				position: absolute;
+				right: 0;
+			}
+		}
+
+		> ul > li > ul > li {
+			> em {
+				transition: all @speed;
+
+				&:first-of-type {
+					opacity: 1;
+				}
+
+				&:not(:first-of-type):last-of-type {
+					font-weight: bold;
+					opacity: 0;
+				}
+			}
+
+			&:hover,
+			&:focus-within {
+				> em {
+					&:first-of-type {
+						opacity: 0;
+					}
+
+					&:not(:first-of-type):last-of-type {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+
+	> p {
+		text-align: center;
+		text-align-last: center;
+		font-size: @font-size--1;
+		margin-top: @padding-more;
+	}
+}
+
+body.highlighting {
+	.nutrition:target > p {
+		opacity: 0;
+		user-select: none;
+		pointer-events: none;
+		transition: opacity @highlighting-speed;
+	}
+
+	&.highlighting-active {
+		.nutrition > p,
+		.nutrition > p > em {
+			opacity: 1;
+			user-select: auto;
+			pointer-events: auto;
+			color: @foreground-colour;
+		}
+	}
+}

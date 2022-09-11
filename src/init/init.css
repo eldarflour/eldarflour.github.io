@@ -1,0 +1,17 @@
+@import "lib/sanitize.css/sanitize.css";
+
+body,
+body::before,
+body::after {
+	user-select: none;
+	pointer-events: none;
+}
+
+body::before,
+body::after {
+	opacity: 1;
+}
+
+body {
+	opacity: 0;
+}

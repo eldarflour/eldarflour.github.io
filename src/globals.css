@@ -1,0 +1,33 @@
+@ratio: 1.618;
+@font-ratio: 1.125;
+@padding-ratio: @ratio;
+
+@font-size: 1rem;
+@font-size-underline: (@font-size * 0.125);
+@line-height: (@font-size * 1.1);
+
+@page-width: (34.5 * @font-size);
+
+@foreground-colour: #222222;
+@background-colour: white;
+
+@font-size--1: (@font-size / @font-ratio);
+@font-size-1: (@font-size * @font-ratio);
+@font-size-2: (@font-size * @font-ratio * @font-ratio);
+@font-size-3: (@font-size * @font-ratio * @font-ratio * @font-ratio);
+@font-size-4: (@font-size * @font-ratio * @font-ratio * @font-ratio * @font-ratio);
+@font-size-5: (@font-size * @font-ratio * @font-ratio * @font-ratio * @font-ratio * @font-ratio);
+
+@line-height--1: (@font-size--1 * @line-height);
+@line-height-1: (@font-size-1 * @line-height);
+@line-height-2: (@font-size-2 * @line-height);
+@line-height-3: (@font-size-3 * @line-height);
+@line-height-4: (@font-size-4 * @line-height);
+@line-height-5: (@font-size-5 * @line-height);
+
+@padding: @line-height;
+@padding-less: (@font-size / @padding-ratio);
+@padding-more: (@font-size * @padding-ratio);
+
+@speed: 0.1s;
+@highlighting-speed: (1s / @ratio);
