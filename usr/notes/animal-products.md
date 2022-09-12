@@ -17,5 +17,5 @@ for around [*7 million people*](/notes/land-for-meat), or [*21 million*](/notes/
 for lamb, [*56 million*](/notes/land-for-meat) for factory-farmed pork, or
 [*29 million*](/notes/land-for-chicken) for home-raised chicken. With a
 population of [*65 million people*](https://en.wikipedia.org/wiki/Demography_of_the_United_Kingdom),
-meat is not a viable source of B~12~ for Britain as a whole, at least
-not when self-sufficiency is considered and factory-farms are avoided.
+meat would not be a viable source of B~12~ for Britain as a whole, not
+when self-sufficiency is considered and factory-farms are avoided.
