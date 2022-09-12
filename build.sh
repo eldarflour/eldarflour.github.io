@@ -576,6 +576,11 @@ main() {
 
 		sed -i -E 's/<li><a href="\/basics">basics<\/a>/<li><a href="\/basics" class="active">basics<\/a>/' "$dst_dir/basics.html"
 
+		mkdir "$dst_dir/about"
+		mkdir "$dst_dir/basics"
+		mv "$dst_dir/about.html" "$dst_dir/about/index.html"
+		mv "$dst_dir/basics.html" "$dst_dir/basics/index.html"
+
 		rm -rf "$base/docs"
 		mv "$dst_dir" "$base/docs"
 
