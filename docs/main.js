@@ -246,14 +246,7 @@
   when_ready(main);
 
   // usr/script.js
-  function highlight() {
-    if (!window.location.hash && document.querySelector(".page a")) {
-      let body_classes = document.body.classList;
-      body_classes.add("highlighting-active", "highlighting-first");
-    }
-  }
   function main2() {
-    highlight();
   }
   function when_ready2(f) {
     if (document.readyState != "loading") {

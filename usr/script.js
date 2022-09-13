@@ -6,7 +6,7 @@ function highlight() {
 }
 
 function main() {
-	highlight();
+	//highlight();
 }
 
 function when_ready(f) {
