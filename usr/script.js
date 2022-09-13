@@ -1,5 +1,5 @@
 function highlight() {
-	if (document.querySelector(".page a")) {
+	if (!window.location.hash && document.querySelector(".page a")) {
 		let body_classes = document.body.classList;
 		body_classes.add("highlighting-active", "highlighting-first");
 	}
