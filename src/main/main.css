@@ -443,9 +443,12 @@ body.highlighting {
 		&.highlighting-active {
 			p,
 			li,
-			em,
-			.line-block {
+			em {
 				color: fade(@foreground-colour, (100% - (100% / @ratio)));
+			}
+
+			.line-block {
+				color: fade(@foreground-colour, (100% / @ratio));
 			}
 
 			a,
