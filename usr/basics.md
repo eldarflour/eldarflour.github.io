@@ -25,7 +25,7 @@ and energy. Sources include [**wholegrain wheat**](https://web.archive.org/web/2
 ***barley***, ***oats***, ***rye***, ***rice***, ***beans***, ***chickpeas***,
 and ***buckwheat***. Less dense sources include ***maize***, ***potatoes***,
 ***lentils***, and ***avocados***, for which more would be needed for the same
-amount of energy. Around [a quarter](/notes/choline) should ideally be legumes,
+amount of energy. Around [a quarter](/notes/choline) should be legumes,
 such as [soybeans](https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/#h3)
 or chickpeas, for the [choline](https://web.archive.org/web/20210126120914id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=50).
 
