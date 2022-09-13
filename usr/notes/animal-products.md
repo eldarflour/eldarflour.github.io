@@ -11,11 +11,12 @@ considered healthy, [despite](https://en.wikipedia.org/wiki/Environmental_impact
 [nutrients](https://www.phrases.org.uk/meanings/243100.html).
 
 Besides that, the land requirement for meat is steep. If everyone in
-[Britain](/notes/british-land-available) obtained their B~12~ from beef,
-while otherwise following [a basic diet](/basics), then there would be land
-for around [*7 million people*](/notes/land-for-meat), or [*21 million*](/notes/land-for-meat)
-for lamb, [*56 million*](/notes/land-for-meat) for factory-farmed pork, or
-[*29 million*](/notes/land-for-chicken) for home-raised chicken. With a
-population of [*65 million people*](https://en.wikipedia.org/wiki/Demography_of_the_United_Kingdom),
+[Britain](/notes/british-land-available) obtained their [B~12~](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107#foodchart)
+from beef, while otherwise following [a basic diet](/basics), then there
+would be land for around [*7 million people*](/notes/land-for-meat),
+or [*21 million*](/notes/land-for-meat) for lamb,
+[*56 million*](/notes/land-for-meat) for factory-farmed pork,
+or [*29 million*](/notes/land-for-chicken) for home-raised chicken.
+With a population of [*65 million people*](https://en.wikipedia.org/wiki/Demography_of_the_United_Kingdom),
 meat would not be a viable source of B~12~ for Britain as a whole, not
 when self-sufficiency is considered and factory-farms are avoided.
