@@ -31,13 +31,3 @@ body > .index {
 	position: relative;
 	bottom: 0.25rem;
 }
-
-@media screen {
-	body.highlighting.highlighting-active {
-		p,
-		li,
-		em {
-			color: fade(@foreground-colour, 20%);
-		}
-	}
-}

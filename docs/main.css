@@ -314,19 +314,6 @@ body {
   font-size: 0.88888889rem;
   margin-top: 1.618rem;
 }
-body.highlighting .nutrition:target > p {
-  opacity: 0;
-  user-select: none;
-  pointer-events: none;
-  transition: opacity 0.61804697s;
-}
-body.highlighting.highlighting-active .nutrition > p,
-body.highlighting.highlighting-active .nutrition > p > em {
-  opacity: 1;
-  user-select: auto;
-  pointer-events: auto;
-  color: #222222;
-}
 /* src/globals.css */
 /* src/main/main.css */
 html {
@@ -488,9 +475,6 @@ h1 {
 .banner {
   text-align: center;
   text-align-last: center;
-}
-.banner a {
-  text-decoration: none;
 }
 @media screen {
   .banner {
@@ -684,39 +668,22 @@ h1 {
   padding: 0;
 }
 @media screen {
-  body.highlighting a,
-  body.highlighting p,
-  body.highlighting li,
-  body.highlighting em,
-  body.highlighting .line-block {
-    color: #222222;
-    transition: all 0.61804697s;
+  body.focus a {
+    transition: opacity 0.1s, text-decoration-color 0.61804697s;
   }
-  body.highlighting a {
-    text-decoration: none;
-  }
-  body.highlighting .index {
-    opacity: 0;
-    user-select: none;
-    pointer-events: none;
-    transition: opacity 0.61804697s;
-  }
-  body.highlighting.highlighting-active p,
-  body.highlighting.highlighting-active li,
-  body.highlighting.highlighting-active em {
-    color: rgba(34, 34, 34, 0.38195303);
-  }
-  body.highlighting.highlighting-active .line-block {
-    color: rgba(34, 34, 34, 0.61804697);
-  }
-  body.highlighting.highlighting-active a,
-  body.highlighting.highlighting-active a em {
-    color: #222222;
-  }
-  body.highlighting.highlighting-active .index {
+  body.focus .index {
     opacity: 1;
     user-select: auto;
     pointer-events: auto;
+    transition: opacity 0.61804697s;
+  }
+  body.focus.focus-active a {
+    text-decoration-color: transparent;
+  }
+  body.focus.focus-active .index {
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
   }
 }
 /* usr/style.css */
@@ -750,12 +717,5 @@ body > .index > .subtitle {
 .nutrition ul li sub {
   position: relative;
   bottom: 0.25rem;
-}
-@media screen {
-  body.highlighting.highlighting-active p,
-  body.highlighting.highlighting-active li,
-  body.highlighting.highlighting-active em {
-    color: rgba(34, 34, 34, 0.2);
-  }
 }
 /* src/main.css */

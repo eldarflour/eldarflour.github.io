@@ -7,11 +7,11 @@ function start_highlighter() {
 		let link_is_local = inside_link ? parent_link.href.includes("#") : false;
 
 		if (!inside_link || link_is_local) {
-			body_classes.toggle("highlighting-active");
+			body_classes.toggle("focus-active");
 		}
 	});
 
-	body_classes.add("highlighting");
+	body_classes.add("focus");
 }
 
 function fix_external_links() {

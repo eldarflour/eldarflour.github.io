@@ -195,10 +195,6 @@ h1 {
 	text-align: center;
 	text-align-last: center;
 
-	a {
-		text-decoration: none;
-	}
-
 	@media screen {
 		display: flex;
 		align-items: center;
@@ -418,48 +414,28 @@ body > .index,
 	padding: 0;
 }
 
-body.highlighting {
+body.focus {
 	@media screen {
-		a,
-		p,
-		li,
-		em,
-		.line-block {
-			color: @foreground-colour;
-			transition: all @highlighting-speed;
-		}
-
 		a {
-			text-decoration: none;
+			transition: opacity @speed, text-decoration-color @highlighting-speed;
 		}
 
 		.index {
-			opacity: 0;
-			user-select: none;
-			pointer-events: none;
+			opacity: 1;
+			user-select: auto;
+			pointer-events: auto;
 			transition: opacity @highlighting-speed;
 		}
 
-		&.highlighting-active {
-			p,
-			li,
-			em {
-				color: fade(@foreground-colour, (100% - (100% / @ratio)));
-			}
-
-			.line-block {
-				color: fade(@foreground-colour, (100% / @ratio));
-			}
-
-			a,
-			a em {
-				color: @foreground-colour;
+		&.focus-active {
+			a {
+				text-decoration-color: transparent;
 			}
 
 			.index {
-				opacity: 1;
-				user-select: auto;
-				pointer-events: auto;
+				opacity: 0;
+				user-select: none;
+				pointer-events: none;
 			}
 		}
 	}
