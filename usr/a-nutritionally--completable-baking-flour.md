@@ -75,7 +75,7 @@ such as [lentils, beans, peas, chickpeas, avocados, and tofu](/basics).
 - **Carbs** *296g*
 	- Fiber *122%* *37g*
 	- Starch *-* *283g*
-	- Sugars *-* *10g*
+	- [Sugars](https://www.youtube.com/watch?v=dBnniua6-oM) *-* *10g*
 - **Fat** *37g*
 	- Omega-3 *85%* *1.4g*
 	- [Omega-6](https://www.youtube.com/watch?v=7kGnfXXIKZM) *-* *9.8g*

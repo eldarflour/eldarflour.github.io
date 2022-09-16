@@ -94,7 +94,7 @@ space, plant fruit and nut trees.
 - **Carbs** *359.0g*
 	- Fiber *362%* *108.7g*
 	- Starch *-* *328.3g*
-	- Sugars *-* *28.8g*
+	- [Sugars](https://www.youtube.com/watch?v=dBnniua6-oM) *-* *28.8g*
 - **Fat** *41.6g*
 	- Omega-3 *261%* *4.2g*
 	- [Omega-6](https://www.youtube.com/watch?v=7kGnfXXIKZM) *-* *16.3g*
