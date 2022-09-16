@@ -20,7 +20,7 @@ for the minerals and fibre. Sources include barley, wheat, oats, and rye.
 increased and decreased as needed. It is healthier if more of the white
 flour is replaced with wholegrain, increasing the water.
 
-**Nuts,** *30g,* *recently dehulled*, for the vitamin E and B~7~.
+**Nuts,** *30g,* *recently ground*, for the vitamin E and B~7~.
 Sources include almonds, hazelnuts, and sunflower seeds.
 
 **Seeds,** *15g,* [recently ground](/notes/seed-sensitivity), for the omega−3.
