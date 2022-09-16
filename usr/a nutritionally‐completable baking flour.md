@@ -36,7 +36,7 @@ of ascorbic acid.
 
 **Nutritional yeast,** *around 4g,* for the B vitamins, and the vitamin D
 if it's been UV-treated. If it's not fortified with B~12~, either
-blend in a tablet, or try [nori](https://pubs.acs.org/doi/10.1021/jf981065c).
+blend in a tablet, or try [nori](/basics).
 
 **Kelp,** *powder,* *a pinch,* for the iodine.
 
