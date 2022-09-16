@@ -65,7 +65,7 @@ include coconut, avocado, hazelnut, and [high-oleic sunflower oil](https://www.y
 depending on method, ingredients, climate, etc. Add less at first, and more
 if needed.
 
-The result is a simple, healthy, adaptable [baking](https://www.manjulaskitchen.com/roti-chapati-flat-indian-bread/)
+The result is a simple, [healthy](#nutrition), adaptable [baking](https://www.manjulaskitchen.com/roti-chapati-flat-indian-bread/)
 flour. It's best paired with sources of [protein](https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=92),
 such as [lentils, beans, peas, chickpeas, avocados, and tofu](/basics).
 ::::
