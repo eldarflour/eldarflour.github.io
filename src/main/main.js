@@ -3,12 +3,10 @@ function start_highlighter() {
 
 	window.addEventListener("click", function(event) {
 		let parent_link = event.target.closest("a");
-		let parent_index = event.target.closest(".index");
 		let inside_link = parent_link !== null;
-		let inside_index = parent_index !== null;
 		let link_is_local = inside_link ? parent_link.href.includes("#") : false;
 
-		if (!inside_link || (link_is_local && inside_index)) {
+		if (!inside_link || link_is_local) {
 			body_classes.toggle("highlighting-active");
 		}
 	});
