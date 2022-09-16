@@ -93,7 +93,6 @@ rreadlink() (
 
 self="$0"
 base="$(dirname "$(rreadlink "$(abspath "$self")")")"
-base_name="$(basename "$base")"
 lock="$base/.building"
 
 src_dir="$base/src"
@@ -276,7 +275,7 @@ md_to_html() {
 
 html_header() {
 	embed="$1"
-	title="$(echo "$2" | sed -E 's/(\w)-(\w)/\1 \2/g')"
+	title="$(echo "$2" | sed -E -e 's/([^-])-([^-])/\1 \2/g' -e 's/--/-/g')"
 
 	if $embed; then
 		embedded=1
@@ -290,7 +289,6 @@ html_header() {
 	echo "		<meta charset='utf-8'>"
 	echo "		<meta name='viewport' content='width=device-width, initial-scale=1'>"
 	echo "		<meta name='embedded' content='$embedded'>"
-	echo "		<meta name='site-name' content='$base_name'>"
 	echo "		<meta name='page-name' content='$title'>"
 	echo "		<style class='main'>"
 	cat "$css_out"
@@ -571,10 +569,10 @@ main() {
 
 
 		# todo
-		mv "$dst_dir/.a healthy diet.html" "$dst_dir/basics.html"
-		mv "$dst_dir/a healthy diet.html" "$dst_dir/basics.html"
-		mv "$dst_dir/.a nutritionally‐completable baking flour.html" "$dst_dir/flour.html"
-		mv "$dst_dir/a nutritionally‐completable baking flour.html" "$dst_dir/flour.html"
+		mv "$dst_dir/.a-healthy-diet.html" "$dst_dir/basics.html"
+		mv "$dst_dir/a-healthy-diet.html" "$dst_dir/basics.html"
+		mv "$dst_dir/.a-nutritionally--completable-baking-flour.html" "$dst_dir/flour.html"
+		mv "$dst_dir/a-nutritionally--completable-baking-flour.html" "$dst_dir/flour.html"
 
 		sed -i -E "s/<span class='subtitle'>flour<\/span>//" "$dst_dir/flour.html"
 		sed -i -E 's/<li><a href="\/">flour<\/a>/<li><a href="\/" class="active">flour<\/a>/' "$dst_dir/flour.html"

@@ -56,7 +56,7 @@ neutralise the acidic taste.
 **Leaves,** *3g dried or 12g fresh,* for the vitamin K. Here dried thyme
 was used, but many dark green [leaves and herbs](/basics) are good candidates;
 lighter green leaves have lower concentrations, such as lettuce, for which
-80 grams is better.
+80 grams is better. These can either be mixed in or had on the side.
 
 **Olive oil,** *around a tablespoon,* *optional*. Alternatives
 include coconut, avocado, hazelnut, and [high-oleic sunflower oil](https://www.youtube.com/watch?v=7kGnfXXIKZM).
