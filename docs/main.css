@@ -727,13 +727,13 @@ body {
     Georgia,
     serif;
 }
-body > .index {
-  display: none;
-}
 body > .index > .subtitle {
   order: 0;
 }
 @media screen {
+  body > .index {
+    display: none;
+  }
   body > .index > .subtitle {
     font-size: 1.265625rem;
     line-height: 1.3921875rem;
