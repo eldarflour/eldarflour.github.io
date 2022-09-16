@@ -5,7 +5,7 @@
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 		<meta name='embedded' content='0'>
 		<meta name='site-name' content='eldar'>
-		<meta name='page-name' content='basics'>
+		<meta name='page-name' content='about'>
 		<style class='main'>
 /* src/init/lib/sanitize.css/src/13.0.0/sanitize.css */
 *,
@@ -323,6 +323,19 @@ body {
   font-size: 0.88888889rem;
   margin-top: 1.618rem;
 }
+body.highlighting .nutrition:target > p {
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+  transition: opacity 0.61804697s;
+}
+body.highlighting.highlighting-active .nutrition > p,
+body.highlighting.highlighting-active .nutrition > p > em {
+  opacity: 1;
+  user-select: auto;
+  pointer-events: auto;
+  color: #222222;
+}
 /* src/globals.css */
 /* src/main/main.css */
 html {
@@ -484,6 +497,9 @@ h1 {
 .banner {
   text-align: center;
   text-align-last: center;
+}
+.banner a {
+  text-decoration: none;
 }
 @media screen {
   .banner {
@@ -677,22 +693,39 @@ h1 {
   padding: 0;
 }
 @media screen {
-  body.focus a {
-    transition: opacity 0.1s, text-decoration-color 0.61804697s;
+  body.highlighting a,
+  body.highlighting p,
+  body.highlighting li,
+  body.highlighting em,
+  body.highlighting .line-block {
+    color: #222222;
+    transition: all 0.61804697s;
   }
-  body.focus .index {
-    opacity: 1;
-    user-select: auto;
-    pointer-events: auto;
-    transition: opacity 0.61804697s;
+  body.highlighting a {
+    text-decoration: none;
   }
-  body.focus.focus-active a {
-    text-decoration-color: transparent;
-  }
-  body.focus.focus-active .index {
+  body.highlighting .index {
     opacity: 0;
     user-select: none;
     pointer-events: none;
+    transition: opacity 0.61804697s;
+  }
+  body.highlighting.highlighting-active p,
+  body.highlighting.highlighting-active li,
+  body.highlighting.highlighting-active em {
+    color: rgba(34, 34, 34, 0.38195303);
+  }
+  body.highlighting.highlighting-active .line-block {
+    color: rgba(34, 34, 34, 0.61804697);
+  }
+  body.highlighting.highlighting-active a,
+  body.highlighting.highlighting-active a em {
+    color: #222222;
+  }
+  body.highlighting.highlighting-active .index {
+    opacity: 1;
+    user-select: auto;
+    pointer-events: auto;
   }
 }
 /* usr/style.css */
@@ -704,6 +737,9 @@ body {
     Book Antiqua,
     Georgia,
     serif;
+}
+body > .index {
+  display: none;
 }
 body > .index > .subtitle {
   order: 0;
@@ -946,10 +982,10 @@ body > .index > .subtitle {
       let inside_link = parent_link !== null;
       let link_is_local = inside_link ? parent_link.href.includes("#") : false;
       if (!inside_link || link_is_local) {
-        body_classes.toggle("focus-active");
+        body_classes.toggle("highlighting-active");
       }
     });
-    body_classes.add("focus");
+    body_classes.add("highlighting");
   }
   function fix_external_links() {
     let external_links = document.querySelectorAll("a[href*=':']");
@@ -995,7 +1031,13 @@ body > .index > .subtitle {
   when_ready(main);
 
   // usr/script.js
+  function highlight() {
+    if (!window.location.hash && document.querySelector(".page a")) {
+      document.body.classList.add("highlighting-active");
+    }
+  }
   function main2() {
+    highlight();
   }
   function when_ready2(f) {
     if (document.readyState != "loading") {
@@ -1015,7 +1057,7 @@ body > .index > .subtitle {
 				document.head.appendChild(script);
 			}
 		</script>
-		<title>eldar: basics</title>
+		<title>about</title>
 	</head>
 	<body>
 <div class='index'>
@@ -1029,102 +1071,14 @@ body > .index > .subtitle {
 </div>
 </div>
 <ul>
-<li><a href="/basics" class="active">basics</a></li>
+<li><a href="/basics">basics</a></li>
 <li><a href="/">flour</a></li>
 </ul>
 </div>
-<div class='page' data-path='/basics' data-title='basics'>
-<div class="index">
-<ul>
-<li><a href="#ingredients">ingredients</a></li>
-<li><a href="#nutrition">nutrition</a></li>
-</ul>
-</div>
+<div class='page' data-path='/about' data-title='about'>
 <div class="row">
-<div class="banner">
-<div class="line-block"><a href="#ingredients"><em>a <strong>healthy</strong>, <strong>natural</strong>, and <strong>organic</strong> diet</em></a><br />
-requires <a href="/notes/land-requirement"><strong><em>a third of an acre</em></strong></a> per person</div>
-<div class="line-block">the arable land of <strong>Britain</strong> can support<br />
-<a href="/notes/british-land-available"><em>80 million × one-third of an acre,</em></a> while<br />
-<strong>the Earth</strong> can support <a href="/notes/world-land-available"><em>30 billion</em></a></div>
-</div>
-</div>
-<div class="row">
-<div id="ingredients" class="ingredients column">
-<p><strong>Staples,</strong> <em>600g</em>, <a href="/notes/land-for-staples"><em>780m<sup>2</sup></em></a>, contain most of a diet’s nutrition, including the <a href="https://web.archive.org/web/20210124021241id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=59">fibre</a>, <a href="https://web.archive.org/web/20210121094444id_/http://whfoods.com/nutrientstoc.php">minerals</a>, <a href="https://web.archive.org/web/20210121094444id_/http://whfoods.com/nutrientstoc.php">B vitamins</a>, <a href="https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=92">protein</a>, and energy. Sources include <a href="https://web.archive.org/web/20201101053151id_/http://www.whfoods.com/genpage.php?tname=foodspice&amp;dbid=66#healthbenefits"><strong>wholegrain wheat</strong></a>, <strong><em>barley</em></strong>, <strong><em>oats</em></strong>, <strong><em>rye</em></strong>, <strong><em>rice</em></strong>, <strong><em>beans</em></strong>, <strong><em>chickpeas</em></strong>, and <strong><em>buckwheat</em></strong>. Less dense sources include <strong><em>maize</em></strong>, <strong><em>potatoes</em></strong>, <strong><em>lentils</em></strong>, and <strong><em>avocados</em></strong>, for which more would be needed for the same amount of energy. Around <a href="/notes/choline">a quarter</a> should be legumes, such as <a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/#h3">soybeans</a> or chickpeas, for the <a href="https://web.archive.org/web/20210126120914id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=50">choline</a>.</p>
-<p><strong>Nuts,</strong> <em>30g,</em> <a href="/notes/land-for-nuts"><em>100m<sup>2</sup></em></a>, <em>recently dehulled,</em> are for the <a href="https://web.archive.org/web/20210126022330id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=111">vitamin E</a> and <a href="https://web.archive.org/web/20210211012750id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=42">B<sub>7</sub></a>. Sources include <strong><em>almonds</em></strong>, <strong><em>hazelnuts</em></strong>, <strong><em>pine nuts</em></strong>, <strong><em>peanuts</em></strong>, and <strong><em>sunflower seeds</em></strong>.</p>
-<p><strong>Seeds,</strong> <em>10g,</em> <a href="/notes/land-for-seeds"><em>30m<sup>2</sup></em></a>, <a href="/notes/seed-sensitivity">recently ground</a>, are for the <a href="https://web.archive.org/web/20210125052152id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=84">omega−3</a>, while the fibres can be used for clothes. Sources include <strong><em>flax</em></strong> and <strong><em>hemp</em></strong>, along with <strong><em>chia</em></strong> and <strong><em>walnuts</em></strong> when the fibres are not needed.</p>
-<p><strong>Leaves,</strong> <em>30g,</em> <a href="/notes/land-for-leaves"><em>10m<sup>2</sup></em></a>, are for the <a href="https://web.archive.org/web/20210126044628id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=112">vitamin K</a>. Many dark green leaves are good candidates, such as <strong><em>kale</em></strong>, <strong><em>spinach</em></strong>, <strong><em>chard</em></strong>, <strong><em>cress</em></strong>, <strong><em>coriander</em></strong>, <strong><em>basil</em></strong>, and <strong><em>parsley</em></strong>. For lighter leaves, such as <strong><em>lettuce</em></strong>, the amounts should be doubled or tripled.</p>
-<p><strong>Fruits,</strong> <em>60g,</em> <a href="/notes/land-for-fruits"><em>80m<sup>2</sup></em></a>, <a href="/notes/fruit-sensitivity"><em>sensitive to age and heat</em></a>, are for the <a href="https://web.archive.org/web/20210119183439id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=109">vitamin C</a>. Sources include <strong><em>strawberries</em></strong>, <strong><em>blackcurrants</em></strong>, <strong><em>rosehips</em></strong>, <strong><em>citrus fruits</em></strong>, <strong><em>bell peppers</em></strong>, <strong><em>broccoli</em></strong>, two or three <strong><em>tomatoes</em></strong>, and increased <strong><em>leaves</em></strong>.</p>
-<p><strong>Vegetables,</strong> <em>120g fresh or 15g dried,</em> <a href="/notes/land-for-vegetables"><em>30m<sup>2</sup></em></a>, for the <a href="https://web.archive.org/web/20210126050657id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=106">vitamin A</a>. Sources include <strong><em>sweet potatoes</em></strong>, <strong><em>carrots</em></strong>, <strong><em>pumpkins</em></strong>, and increased <strong><em>leaves</em></strong>.</p>
-<p><strong>Seaweed,</strong> <a href="https://www.sciencedirect.com/science/article/pii/S1021949814000155#tspara0010"><em>&lt;1g dried</em></a>, for the <a href="https://web.archive.org/web/20210126022043id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=69">iodine</a>; can include <strong><em>kelp</em></strong>, <strong><em>dulse</em></strong>, <strong><em>wakame</em></strong>, or a few grams of dried <strong><em>nori</em></strong>, aka <strong><em>purple laver</em></strong>.</p>
-<p><strong>Chalk,</strong> <em>1g,</em> for the <a href="https://web.archive.org/web/20210126042937id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=45">calcium</a>. An alternative is gypsum-set <strong><em>tofu</em></strong>.</p>
-<p><strong>Salt,</strong> <em>6g,</em> for the sodium.</p>
-<p><strong>Sun,</strong> <a href="https://www.healthline.com/nutrition/vitamin-d-from-sun#time-of-day"><em>30–60min,</em></a> for the <a href="https://web.archive.org/web/20210126034122id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=110">vitamin D</a>. An alternative is a <strong><em>mushroom</em></strong>, preferably shiitake for the <a href="https://web.archive.org/web/20210211074336id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=87">vitamin B<sub>5</sub></a>, <a href="http://fungi.com/blogs/articles/place-mushrooms-in-sunlight-to-get-your-vitamin-d">cured for two days with gills facing the summer Sun</a>.</p>
-<p><strong>Soil,</strong> is unfortunately the preferred habitat of the bacteria that produce <a href="https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=107">vitamin B<sub>12</sub></a>. <a href="/notes/animal-products">Vegan</a> sources include <em>a gram of dried <a href="/notes/duckweed"><strong>duckweed</strong></a></em>, <em>a gram of dried <a href="/notes/chlorella"><strong>chlorella</strong></a></em>, <em>a sheet of dried <a href="https://pubs.acs.org/doi/10.1021/jf981065c"><strong>nori</strong></a></em>, aka <strong><em>purple laver</em></strong>, <a href="/notes/other-sources-of-b12">and</a> <em>perhaps <a href="https://veganhealth.org/vitamin-b12/vitamin-b12-plant-foods/#various"><strong>dulse</strong></a></em>. Note, the plants above will also want <a href="https://www.youtube.com/watch?v=ZgokeGNZnt8">good soil</a>, and a source of water.</p>
-<p><strong>Land,</strong> <em>a third of an acre</em> includes space for paths and storage, such as in a layout of <em>2 strips, each 520m × 1m with a 2ft path between</em>. With extra space, plant fruit and nut trees.</p>
-</div>
-<div id="nutrition" class="nutrition column">
-<ul>
-<li><strong>Energy</strong> <em>2555kcal</em></li>
-<li><strong>Carbs</strong> <em>359.0g</em>
-<ul>
-<li>Fiber <em>362%</em> <em>108.7g</em></li>
-<li>Starch <em>-</em> <em>328.3g</em></li>
-<li>Sugars <em>-</em> <em>28.8g</em></li>
-</ul></li>
-<li><strong>Fat</strong> <em>41.6g</em>
-<ul>
-<li>Omega-3 <em>261%</em> <em>4.2g</em></li>
-<li><a href="https://www.youtube.com/watch?v=7kGnfXXIKZM">Omega-6</a> <em>-</em> <em>16.3g</em></li>
-</ul></li>
-<li><strong>Protein</strong> <em>99.3g</em>
-<ul>
-<li>Histidine <em>256%</em> <em>2.4g</em></li>
-<li>Isoleucine <em>308%</em> <em>4.0g</em></li>
-<li>Leucine <em>242%</em> <em>6.9g</em></li>
-<li>Lysine <em>183%</em> <em>4.7g</em></li>
-<li>Methionine <em>270%</em> <em>1.7g</em></li>
-<li>Phenylalanine <em>487%</em> <em>5.5g</em></li>
-<li>Threonine <em>266%</em> <em>3.6g</em></li>
-<li>Tryptophan <em>423%</em> <em>1.4g</em></li>
-<li>Valine <em>293%</em> <em>4.8g</em></li>
-</ul></li>
-<li><strong>Vitamins</strong>
-<ul>
-<li>A <em>143%</em> <em>1001.7µg</em></li>
-<li>B<sub>1</sub> <em>445%</em> <em>4.5mg</em></li>
-<li>B<sub>2</sub> <em>148%</em> <em>1.9mg</em></li>
-<li>B<sub>3</sub> <em>167%</em> <em>27.6mg</em></li>
-<li>B<sub>4</sub> <em><a href="/notes/choline">95%</a></em> <em><a href="/notes/choline">381.4mg</a></em></li>
-<li>B<sub>5</sub> <em>118%</em> <em>5.9mg</em></li>
-<li>B<sub>6</sub> <em>220%</em> <em>3.1mg</em></li>
-<li>B<sub>7</sub> <em>105%</em> <em>31.5µg</em></li>
-<li>B<sub>9</sub> <em>547%</em> <em>1093.3µg</em></li>
-<li>B<sub>12</sub> <em>159%</em> <em>2.4µg</em></li>
-<li>C <em>133%</em> <em>53.2mg</em></li>
-<li>D <em>165%</em> <em>330.0iu</em></li>
-<li>E <em>206%</em> <em>15.5mg</em></li>
-<li>K <em>215%</em> <em>172.4µg</em></li>
-</ul></li>
-<li><strong>Minerals</strong>
-<ul>
-<li>Calcium <em>111%</em> <em>773.7mg</em></li>
-<li>Chromium <em>599%</em> <em>59.9µg</em></li>
-<li>Copper <em>364%</em> <em>4.4mg</em></li>
-<li>Iodine <em>112%</em> <em>156.2µg</em></li>
-<li>Iron <em>182%</em> <em>27.0mg</em></li>
-<li>Magnesium <em>313%</em> <em>940.1mg</em></li>
-<li>Manganese <em>945%</em> <em>42.5mg</em></li>
-<li>Molybdenum <em>660%</em> <em>198.0µg</em></li>
-<li>Phosphorus <em>356%</em> <em>1955.9mg</em></li>
-<li>Potassium <em>119%</em> <em>4152.4mg</em></li>
-<li>Selenium <em>256%</em> <em>192.1µg</em></li>
-<li>Sodium <em>168%</em> <em>2517.9mg</em></li>
-<li>Zinc <em>207%</em> <em>19.6mg</em></li>
-</ul></li>
-</ul>
-<p><em><strong>Source</strong>: <a href="https://www.goodreads.com/en/book/show/173102">WHFoods</a>, <a href="https://fdc.nal.usda.gov/">USDA</a></em></p>
+<div class="column">
+<p>This site is in the public domain. It is a draft for what is intended to be a dynamic way to build nutritionally-balanced recipes, while estimating the ecological cost with land-use statistics. Until then, this site can be used as a foundation for building healthy, natural, low-impact diets.</p>
 </div>
 </div>
 </div>

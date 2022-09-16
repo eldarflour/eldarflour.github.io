@@ -197,10 +197,10 @@
       let inside_link = parent_link !== null;
       let link_is_local = inside_link ? parent_link.href.includes("#") : false;
       if (!inside_link || link_is_local) {
-        body_classes.toggle("focus-active");
+        body_classes.toggle("highlighting-active");
       }
     });
-    body_classes.add("focus");
+    body_classes.add("highlighting");
   }
   function fix_external_links() {
     let external_links = document.querySelectorAll("a[href*=':']");
@@ -246,7 +246,13 @@
   when_ready(main);
 
   // usr/script.js
+  function highlight() {
+    if (!window.location.hash && document.querySelector(".page a")) {
+      document.body.classList.add("highlighting-active");
+    }
+  }
   function main2() {
+    highlight();
   }
   function when_ready2(f) {
     if (document.readyState != "loading") {

@@ -4,6 +4,8 @@ body {
 }
 
 body > .index {
+	display: none;
+
 	> .subtitle {
 		order: 0;
 	}

@@ -20,7 +20,7 @@ for the minerals and fibre. Sources include barley, wheat, oats, and rye.
 increased and decreased as needed. It is healthier if more of the white
 flour is replaced with wholegrain, increasing the water.
 
-**Nuts,** *25g,* *recently dehulled*, for the vitamin E and B~7~.
+**Nuts,** *30g,* *recently dehulled*, for the vitamin E and B~7~.
 Sources include almonds, hazelnuts, and sunflower seeds.
 
 **Seeds,** *15g,* [recently ground](/notes/seed-sensitivity), for the omega−3.
@@ -43,11 +43,9 @@ blend in a tablet, or try [nori](https://pubs.acs.org/doi/10.1021/jf981065c).
 **Chalk,** *1g,* aka calcium carbonate. An alternative is tofu set with calcium sulphate.
 
 **Salt,** *around 10g,* for the sodium. Preferably a low-sodium salt
-for the increased potassium; they are usually half sodium chloride and
-half potassium chloride. For a self-raising flour, instead add around 10g
+for the increased potassium. For a self-raising flour, instead add around 10g
 of cream of tartar, aka potassium bitartrate, half that of baking soda, and
-a few grams of standard salt. In which case, add the water at the end,
-and be quick and gentle with the dough.
+a few grams of standard salt.
 
 **Choline bitartrate,** *1g,* *optional,* for the choline, i.e. the B~4~. This
 is less relevant for those that have replaced all of the white flour with wholegrains,
@@ -60,50 +58,46 @@ was used, but many dark green [leaves and herbs](/basics) are good candidates;
 lighter green leaves have lower concentrations, such as lettuce, for which
 80 grams is better.
 
-**Olive oil,** *around a tablespoon,* *optional,* improves the texture. Alternatives
+**Olive oil,** *around a tablespoon,* *optional*. Alternatives
 include coconut, avocado, hazelnut, and [high-oleic sunflower oil](https://www.youtube.com/watch?v=7kGnfXXIKZM).
 
 **Water,** *around 300ml,* [varies](https://en.wikipedia.org/wiki/Baker_percentage#Dough_hydration)
 depending on method, ingredients, climate, etc. Add less at first, and more
 if needed.
 
-The result is a healthy, adaptable, almost-natural
-[baking](https://www.manjulaskitchen.com/roti-chapati-flat-indian-bread/)
-[flour](http://web.archive.org/web/20170216235835/http://robrhinehart.com/?p=424).
-It is best paired with sources of [protein](https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=92),
-such as lentils, beans, peas, chickpeas, avocados, and tofu. Some of the ingredients
-also work well on the side, e.g. in a smoothie, such as the barley, nuts, seeds,
-leaves, fruits, [etc](/basics).
+The result is a simple, healthy, adaptable [baking](https://www.manjulaskitchen.com/roti-chapati-flat-indian-bread/)
+flour. It's best paired with sources of [protein](https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=92),
+such as [lentils, beans, peas, chickpeas, avocados, and tofu](/basics).
 ::::
 
 :::: {#nutrition .nutrition .column}
-- **Energy** *1882kcal*
-- **Carbs** *295g*
+- **Energy** *1910kcal*
+- **Carbs** *296g*
 	- Fiber *122%* *37g*
 	- Starch *-* *283g*
 	- Sugars *-* *10g*
 - **Fat** *37g*
 	- Omega-3 *85%* *1.4g*
-	- [Omega-6](https://www.youtube.com/watch?v=7kGnfXXIKZM) *-* *9.2g*
-- **Protein** *56g*
-	- Histidine *129%* *1.2g*
-	- Isoleucine *149%* *1.9g*
-	- Leucine *128%* *3.7g*
-	- Lysine *57%* *1.5g*
-	- Methionine *142%* *0.9g*
-	- Phenylalanine *243%* *2.7g*
-	- Threonine *117%* *1.6g*
-	- Tryptophan *199%* *0.7g*
-	- Valine *141%* *2.3g*
+	- [Omega-6](https://www.youtube.com/watch?v=7kGnfXXIKZM) *-* *9.8g*
+- **Protein** *57g*
+	- Histidine *132%* *1.3g*
+	- Isoleucine *151%* *2.0g*
+	- Leucine *131%* *3.7g*
+	- Lysine *58%* *1.5g*
+	- Methionine *143%* *0.9g*
+	- Phenylalanine *248%* *2.8g*
+	- Threonine *119%* *1.6g*
+	- Tryptophan *203%* *0.7g*
+	- Valine *144%* *2.4g*
 - **Vitamins**
 	- A *102%* *710.6µg*
 	- B~1~ *293%* *2.9mg*
 	- B~2~ *113%* *1.5mg*
-	- B~3~ *146%* *24.2mg*
-	- B~4~ *126%* *504.7mg*
+	- B~3~ *147%* *24.3mg*
+	- B~4~ *127%* *507.3mg*
 	- B~5~ *156%* *7.8mg*
 	- B~6~ *150%* *2.1mg*
-	- B~7~ *85%* *25.5µg*
+	- B~7~ *96%* *28.7µg*
 	- B~9~ *159%* *317.7µg*
 	- B~12~ *147%* *2.2µg*
 	- C *324%* *129.5mg*
@@ -111,19 +105,19 @@ leaves, fruits, [etc](/basics).
 	- E *141%* *10.6mg*
 	- K *106%* *84.5µg*
 - **Minerals**
-	- Calcium *96%* *670.1mg*
+	- Calcium *98%* *683.5mg*
 	- Chromium *106%* *10.6µg*
-	- Copper *128%* *1.5mg*
+	- Copper *133%* *1.6mg*
 	- Iodine *110%* *154.2µg*
-	- Iron *96%* *14.3mg*
-	- Magnesium *120%* *359.3mg*
-	- Manganese *129%* *5.8mg*
+	- Iron *98%* *14.4mg*
+	- Magnesium *124%* *372.8mg*
+	- Manganese *131%* *5.9mg*
 	- Molybdenum *117%* *35.2µg*
-	- Phosphorus *168%* *926.7mg*
-	- Potassium *119%* *4159.9mg*
-	- Selenium *194%* *145.3µg*
+	- Phosphorus *173%* *950.8mg*
+	- Potassium *120%* *4196.5mg*
+	- Selenium *194%* *145.5µg*
 	- Sodium *145%* *2169.4mg*
-	- Zinc *122%* *11.6mg*
+	- Zinc *124%* *11.7mg*
 
 ***Source**: [WHFoods](https://www.goodreads.com/en/book/show/173102), [USDA](https://fdc.nal.usda.gov/)*
 ::::

@@ -1,12 +1,11 @@
 function highlight() {
 	if (!window.location.hash && document.querySelector(".page a")) {
-		let body_classes = document.body.classList;
-		body_classes.add("highlighting-active", "highlighting-first");
+		document.body.classList.add("highlighting-active");
 	}
 }
 
 function main() {
-	//highlight();
+	highlight();
 }
 
 function when_ready(f) {

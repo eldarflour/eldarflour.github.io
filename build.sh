@@ -332,7 +332,7 @@ html_header() {
 		echo "		</script>"
 	fi
 
-	echo "		<title>$base_name: $title</title>"
+	echo "		<title>$title</title>"
 	echo "	</head>"
 	echo "	<body>"
 }
@@ -570,16 +570,17 @@ main() {
 
 
 
+		# todo
+		mv "$dst_dir/.a healthy diet.html" "$dst_dir/basics.html"
+		mv "$dst_dir/a healthy diet.html" "$dst_dir/basics.html"
+		mv "$dst_dir/.a nutritionally-completable baking flour.html" "$dst_dir/flour.html"
+		mv "$dst_dir/a nutritionally-completable baking flour.html" "$dst_dir/flour.html"
+
 		sed -i -E "s/<span class='subtitle'>flour<\/span>//" "$dst_dir/flour.html"
 		sed -i -E 's/<li><a href="\/">flour<\/a>/<li><a href="\/" class="active">flour<\/a>/' "$dst_dir/flour.html"
 		mv "$dst_dir/flour.html" "$dst_dir/index.html"
 
 		sed -i -E 's/<li><a href="\/basics">basics<\/a>/<li><a href="\/basics" class="active">basics<\/a>/' "$dst_dir/basics.html"
-
-		mkdir "$dst_dir/about"
-		mkdir "$dst_dir/basics"
-		mv "$dst_dir/about.html" "$dst_dir/about/index.html"
-		mv "$dst_dir/basics.html" "$dst_dir/basics/index.html"
 
 		rm -rf "$base/docs"
 		mv "$dst_dir" "$base/docs"
