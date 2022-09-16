@@ -573,8 +573,8 @@ main() {
 		# todo
 		mv "$dst_dir/.a healthy diet.html" "$dst_dir/basics.html"
 		mv "$dst_dir/a healthy diet.html" "$dst_dir/basics.html"
-		mv "$dst_dir/.a nutritionally‑completable baking flour.html" "$dst_dir/flour.html"
-		mv "$dst_dir/a nutritionally‑completable baking flour.html" "$dst_dir/flour.html"
+		mv "$dst_dir/.a nutritionally‐completable baking flour.html" "$dst_dir/flour.html"
+		mv "$dst_dir/a nutritionally‐completable baking flour.html" "$dst_dir/flour.html"
 
 		sed -i -E "s/<span class='subtitle'>flour<\/span>//" "$dst_dir/flour.html"
 		sed -i -E 's/<li><a href="\/">flour<\/a>/<li><a href="\/" class="active">flour<\/a>/' "$dst_dir/flour.html"
