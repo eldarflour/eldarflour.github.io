@@ -39,21 +39,23 @@ p {
 }
 
 a {
-	outline: 0;
 	color: inherit;
-	font-style: italic;
 
 	@media print {
 		text-decoration: none;
 	}
 
 	@media screen {
+		font-style: italic;
+
 		text-decoration: underline;
 		text-decoration-thickness: @font-size-underline;
 		text-decoration-color: rgba(0, 0, 0, (1 - (1 / @ratio)));
 		text-decoration-style: solid;
 
+		outline: 0;
 		opacity: 1;
+
 		transition: all @speed;
 
 		&:hover,
@@ -63,11 +65,6 @@ a {
 	}
 }
 
-sup,
-sub {
-	line-height: 0;
-}
-
 small {
 	font-size: (100% / @font-ratio);
 }
@@ -75,6 +72,11 @@ small {
 sup,
 sub {
 	font-size: (100% / @ratio);
+}
+
+sup,
+sub {
+	line-height: 0;
 }
 
 ol,
@@ -191,6 +193,20 @@ h1 {
 	}
 }
 
+.only {
+	&.print {
+		@media screen {
+			display: none;
+		}
+	}
+
+	&.screen {
+		@media print {
+			display: none;
+		}
+	}
+}
+
 .banner {
 	text-align: center;
 	text-align-last: center;
@@ -279,6 +295,10 @@ h1 {
 		order: -1;
 	}
 
+	&[data-indexed=1] > .subtitle {
+		display: none;
+	}
+
 	@media screen {
 		padding: @index-padding 0;
 
@@ -335,6 +355,7 @@ h1 {
 		> .row > .column {
 			break-inside: avoid;
 			break-before: always;
+			min-height: 100vh;
 		}
 	}
 
@@ -416,48 +437,4 @@ body > .index,
 
 .index + .page:last-child > .row:first-child:last-child > .column:first-child:last-child {
 	padding: 0;
-}
-
-body.highlighting {
-	@media screen {
-		a,
-		p,
-		li,
-		em,
-		.line-block {
-			color: @foreground-colour;
-			transition: all @highlighting-speed;
-		}
-
-		a {
-			text-decoration: none;
-		}
-
-		.index {
-			opacity: 0;
-			user-select: none;
-			pointer-events: none;
-			transition: opacity @highlighting-speed;
-		}
-
-		&.highlighting-active {
-			p,
-			li,
-			em,
-			.line-block {
-				color: fade(@foreground-colour, (100% - (100% / @ratio)));
-			}
-
-			a,
-			a em {
-				color: @foreground-colour;
-			}
-
-			.index {
-				opacity: 1;
-				user-select: auto;
-				pointer-events: auto;
-			}
-		}
-	}
 }

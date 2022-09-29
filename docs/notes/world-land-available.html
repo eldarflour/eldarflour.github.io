@@ -1,12 +1,11 @@
 <!doctype html>
-<html lang='en'>
+<html>
 	<head>
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<meta name='embedded' content='0'>
-		<meta name='page-name' content='world land available'>
+		<title>world land available</title>
 		<style class='main'>
-/* src/init/lib/sanitize.css/src/13.0.0/sanitize.css */
+/* src/main.post.css */
 *,
 ::before,
 ::after {
@@ -153,12 +152,10 @@
   clip: rect(0, 0, 0, 0);
   position: absolute;
 }
-/* src/init/lib/sanitize.css/src/13.0.0/assets.css */
 :where(iframe, img, input, video, select, textarea) {
   height: auto;
   max-width: 100%;
 }
-/* src/init/lib/sanitize.css/src/13.0.0/forms.css */
 :where(button, input, select, textarea) {
   background-color: transparent;
   border: 1px solid WindowFrame;
@@ -180,7 +177,6 @@
   border-width: 0;
   padding: 0;
 }
-/* src/init/lib/sanitize.css/src/13.0.0/reduce-motion.css */
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
@@ -194,60 +190,120 @@
     transition-duration: 0s !important;
   }
 }
-/* src/init/lib/sanitize.css/src/13.0.0/system-ui.css */
 @font-face {
   font-family: system-ui;
-  src: local(".AppleSystemUIFont"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("HelveticaNeue");
-}
-@font-face {
-  font-family: system-ui;
-  font-style: italic;
-  src: local(".AppleSystemUIFont"), local("Segoe UI Italic"), local("Ubuntu-Italic"), local("Roboto-Italic"), local("HelveticaNeue-Italic");
-}
-@font-face {
-  font-family: system-ui;
-  font-weight: bold;
-  src: local(".AppleSystemUIFont"), local("Segoe UI Bold"), local("Ubuntu-Bold"), local("Roboto-Bold"), local("HelveticaNeue-Bold");
+  src:
+    local(".AppleSystemUIFont"),
+    local("Segoe UI"),
+    local("Ubuntu"),
+    local("Roboto-Regular"),
+    local("HelveticaNeue");
 }
 @font-face {
   font-family: system-ui;
   font-style: italic;
-  font-weight: bold;
-  src: local(".AppleSystemUIFont"), local("Segoe UI Bold Italic"), local("Ubuntu-BoldItalic"), local("Roboto-BoldItalic"), local("HelveticaNeue-BoldItalic");
+  src:
+    local(".AppleSystemUIFont"),
+    local("Segoe UI Italic"),
+    local("Ubuntu-Italic"),
+    local("Roboto-Italic"),
+    local("HelveticaNeue-Italic");
 }
-/* src/init/lib/sanitize.css/src/13.0.0/ui-monospace.css */
+@font-face {
+  font-family: system-ui;
+  font-weight: bold;
+  src:
+    local(".AppleSystemUIFont"),
+    local("Segoe UI Bold"),
+    local("Ubuntu-Bold"),
+    local("Roboto-Bold"),
+    local("HelveticaNeue-Bold");
+}
+@font-face {
+  font-family: system-ui;
+  font-style: italic;
+  font-weight: bold;
+  src:
+    local(".AppleSystemUIFont"),
+    local("Segoe UI Bold Italic"),
+    local("Ubuntu-BoldItalic"),
+    local("Roboto-BoldItalic"),
+    local("HelveticaNeue-BoldItalic");
+}
 @font-face {
   font-family: ui-monospace;
-  src: local(".AppleSystemUIFontMonospaced-Regular"), local("Segoe UI Mono"), local("UbuntuMono"), local("Roboto-Mono"), local("Menlo");
+  src:
+    local(".AppleSystemUIFontMonospaced-Regular"),
+    local("Segoe UI Mono"),
+    local("UbuntuMono"),
+    local("Roboto-Mono"),
+    local("Menlo");
 }
 @font-face {
   font-family: ui-monospace;
   font-style: italic;
-  src: local(".AppleSystemUIFontMonospaced-RegularItalic"), local("Segoe UI Mono Italic"), local("UbuntuMono-Italic"), local("Roboto-Mono-Italic"), local("Menlo-Italic");
+  src:
+    local(".AppleSystemUIFontMonospaced-RegularItalic"),
+    local("Segoe UI Mono Italic"),
+    local("UbuntuMono-Italic"),
+    local("Roboto-Mono-Italic"),
+    local("Menlo-Italic");
 }
 @font-face {
   font-family: ui-monospace;
   font-weight: bold;
-  src: local(".AppleSystemUIFontMonospaced-Bold"), local("Segoe UI Mono Bold"), local("UbuntuMono-Bold"), local("Roboto-Mono-Bold"), local("Menlo-Bold");
+  src:
+    local(".AppleSystemUIFontMonospaced-Bold"),
+    local("Segoe UI Mono Bold"),
+    local("UbuntuMono-Bold"),
+    local("Roboto-Mono-Bold"),
+    local("Menlo-Bold");
 }
 @font-face {
   font-family: ui-monospace;
   font-style: italic;
   font-weight: bold;
-  src: local(".AppleSystemUIFontMonospaced-BoldItalic"), local("Segoe UI Mono Bold Italic"), local("UbuntuMono-BoldItalic"), local("Roboto-Mono-BoldItalic"), local("Menlo-BoldItalic");
+  src:
+    local(".AppleSystemUIFontMonospaced-BoldItalic"),
+    local("Segoe UI Mono Bold Italic"),
+    local("UbuntuMono-BoldItalic"),
+    local("Roboto-Mono-BoldItalic"),
+    local("Menlo-BoldItalic");
 }
-/* src/init/lib/sanitize.css/src/13.0.0/typography.css */
 html {
-  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    "Roboto",
+    "Ubuntu",
+    "Cantarell",
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
 }
 code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family:
+    ui-monospace,
+    "Menlo",
+    "Consolas",
+    "Roboto Mono",
+    "Ubuntu Monospace",
+    "Noto Mono",
+    "Oxygen Mono",
+    "Liberation Mono",
+    monospace,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
 }
-/* src/init/lib/sanitize.css/sanitize.css */
-/* src/init/init.css */
 body,
 body::before,
 body::after {
@@ -261,7 +317,6 @@ body::after {
 body {
   opacity: 0;
 }
-/* src/nutrition/nutrition.css */
 @media (min-width: 24rem) {
   .nutrition > ul {
     column-count: 2;
@@ -322,21 +377,6 @@ body {
   font-size: 0.88888889rem;
   margin-top: 1.618rem;
 }
-body.highlighting .nutrition:target > p {
-  opacity: 0;
-  user-select: none;
-  pointer-events: none;
-  transition: opacity 0.61804697s;
-}
-body.highlighting.highlighting-active .nutrition > p,
-body.highlighting.highlighting-active .nutrition > p > em {
-  opacity: 1;
-  user-select: auto;
-  pointer-events: auto;
-  color: #222222;
-}
-/* src/globals.css */
-/* src/main/main.css */
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -364,9 +404,7 @@ p {
   line-height: 1.1rem;
 }
 a {
-  outline: 0;
   color: inherit;
-  font-style: italic;
 }
 @media print {
   a {
@@ -375,10 +413,12 @@ a {
 }
 @media screen {
   a {
+    font-style: italic;
     text-decoration: underline;
     text-decoration-thickness: 0.125rem;
     text-decoration-color: rgba(0, 0, 0, 0.38195303);
     text-decoration-style: solid;
+    outline: 0;
     opacity: 1;
     transition: all 0.1s;
   }
@@ -387,16 +427,16 @@ a {
     opacity: 0.61804697;
   }
 }
-sup,
-sub {
-  line-height: 0;
-}
 small {
   font-size: 88.88888889%;
 }
 sup,
 sub {
   font-size: 61.80469716%;
+}
+sup,
+sub {
+  line-height: 0;
 }
 ol,
 ul {
@@ -493,6 +533,16 @@ h1 {
     display: initial;
   }
 }
+@media screen {
+  .only.print {
+    display: none;
+  }
+}
+@media print {
+  .only.screen {
+    display: none;
+  }
+}
 .banner {
   text-align: center;
   text-align-last: center;
@@ -572,6 +622,9 @@ h1 {
 .index > .subtitle + .either {
   order: -1;
 }
+.index[data-indexed="1"] > .subtitle {
+  display: none;
+}
 @media screen {
   .index {
     padding: 0.61804697rem 0;
@@ -620,6 +673,7 @@ h1 {
   .page > .row > .column {
     break-inside: avoid;
     break-before: always;
+    min-height: 100vh;
   }
 }
 @media screen {
@@ -691,6 +745,41 @@ h1 {
 .index + .page:last-child > .row:first-child:last-child > .column:first-child:last-child {
   padding: 0;
 }
+body {
+  font-family:
+    P052,
+    Palatino,
+    Palatino Linotype,
+    Palatino LT STD,
+    Book Antiqua,
+    Georgia,
+    serif;
+}
+body > .index {
+  display: none;
+}
+body > .index > .subtitle {
+  order: 0;
+}
+@media screen {
+  body > .index > .subtitle {
+    font-size: 1.265625rem;
+    line-height: 1.3921875rem;
+    padding-left: 0;
+  }
+  body > .index > .subtitle:not(:empty) + p,
+  body > .index > .subtitle:not(:empty) + .either {
+    display: none;
+  }
+}
+.page > .index a {
+  position: relative;
+  top: 0.38195303rem;
+}
+.nutrition ul li sub {
+  position: relative;
+  bottom: 0.25rem;
+}
 @media screen {
   body.highlighting a,
   body.highlighting p,
@@ -704,6 +793,12 @@ h1 {
     text-decoration: none;
   }
   body.highlighting .index {
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+    transition: opacity 0.61804697s;
+  }
+  body.highlighting .nutrition:target > p {
     opacity: 0;
     user-select: none;
     pointer-events: none;
@@ -724,43 +819,14 @@ h1 {
     user-select: auto;
     pointer-events: auto;
   }
-}
-/* usr/style.css */
-body {
-  font-family: P052,
-    Palatino,
-    Palatino Linotype,
-    Palatino LT STD,
-    Book Antiqua,
-    Georgia,
-    serif;
-}
-body > .index > .subtitle {
-  order: 0;
-}
-@media screen {
-  body > .index {
-    display: none;
-  }
-  body > .index > .subtitle {
-    font-size: 1.265625rem;
-    line-height: 1.3921875rem;
-    padding-left: 0;
-  }
-  body > .index > .subtitle:not(:empty) + p,
-  body > .index > .subtitle:not(:empty) + .either {
-    display: none;
+  body.highlighting.highlighting-active .nutrition > p,
+  body.highlighting.highlighting-active .nutrition > p > em {
+    opacity: 1;
+    user-select: auto;
+    pointer-events: auto;
+    color: #222222;
   }
 }
-.page > .index a {
-  position: relative;
-  top: 0.38195303rem;
-}
-.nutrition ul li sub {
-  position: relative;
-  bottom: 0.25rem;
-}
-/* src/main.css */
 		</style>
 		<noscript>
 			<style>
@@ -781,7 +847,7 @@ body > .index > .subtitle {
 		</noscript>
 		<script class='main'>
 (() => {
-  // src/init/lib/classList.js
+  // src/init/lib/polyfills/classList.js
   if ("document" in self) {
     if (!("classList" in document.createElement("_")) || document.createElementNS && !("classList" in document.createElementNS("http://www.w3.org/2000/svg", "g"))) {
       (function(view) {
@@ -940,7 +1006,7 @@ body > .index > .subtitle {
     })();
   }
 
-  // src/init/lib/closest.js
+  // src/init/lib/polyfills/closest.js
   function polyfill(window2) {
     const ElementPrototype = window2.Element.prototype;
     if (typeof ElementPrototype.matches !== "function") {
@@ -972,18 +1038,6 @@ body > .index > .subtitle {
   polyfill(window);
 
   // src/main/main.js
-  function start_highlighter() {
-    let body_classes = document.body.classList;
-    window.addEventListener("click", function(event) {
-      let parent_link = event.target.closest("a");
-      let inside_link = parent_link !== null;
-      let link_is_local = inside_link ? parent_link.href.includes("#") : false;
-      if (!inside_link || link_is_local) {
-        body_classes.toggle("highlighting-active");
-      }
-    });
-    body_classes.add("highlighting");
-  }
   function fix_external_links() {
     let external_links = document.querySelectorAll("a[href*=':']");
     for (let i = 0; i < external_links.length; i++) {
@@ -1014,7 +1068,6 @@ body > .index > .subtitle {
     document.head.appendChild(styleNode);
   }
   function main() {
-    start_highlighter();
     fix_external_links();
     show_body();
   }
@@ -1027,8 +1080,21 @@ body > .index > .subtitle {
   }
   when_ready(main);
 
-  // usr/script.js
+  // usr/dev/script.js
+  function start_highlighter() {
+    let body_classes = document.body.classList;
+    window.addEventListener("click", function(event) {
+      let parent_link = event.target.closest("a");
+      let inside_link = parent_link !== null;
+      let link_is_local = inside_link ? parent_link.href.includes("#") : false;
+      if (!inside_link || link_is_local) {
+        body_classes.toggle("highlighting-active");
+      }
+    });
+    body_classes.add("highlighting");
+  }
   function main2() {
+    start_highlighter();
   }
   function when_ready2(f) {
     if (document.readyState != "loading") {
@@ -1048,10 +1114,9 @@ body > .index > .subtitle {
 				document.head.appendChild(script);
 			}
 		</script>
-		<title>world land available</title>
 	</head>
 	<body>
-<div class='index'>
+<div class='index' data-indexed='0'>
 	<span class='subtitle'>world land available</span>
 <div class="either">
 <div class="print">

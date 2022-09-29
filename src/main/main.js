@@ -1,19 +1,3 @@
-function start_highlighter() {
-	let body_classes = document.body.classList;
-
-	window.addEventListener("click", function(event) {
-		let parent_link = event.target.closest("a");
-		let inside_link = parent_link !== null;
-		let link_is_local = inside_link ? parent_link.href.includes("#") : false;
-
-		if (!inside_link || link_is_local) {
-			body_classes.toggle("highlighting-active");
-		}
-	});
-
-	body_classes.add("highlighting");
-}
-
 function fix_external_links() {
 	let external_links = document.querySelectorAll("a[href*=':']");
 
@@ -24,6 +8,8 @@ function fix_external_links() {
 }
 
 function show_body() {
+	// todo: this should be in init.js, when a usr-finished event is emitted
+
 	let styleNode = document.createElement("style");
 	let style = `
 		body,
@@ -48,7 +34,6 @@ function show_body() {
 }
 
 function main() {
-	start_highlighter();
 	fix_external_links();
 	show_body();
 }

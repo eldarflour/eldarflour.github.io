@@ -9,7 +9,7 @@
 | requires [***a third of an acre***](/notes/land-requirement) per person
 
 | the arable land of **Britain** can support
-| [*80 million × one-third of an acre,*](/notes/british-land-available) while
+| [*84 million × one-third of an acre,*](/notes/british-land-available) while
 | **the Earth** can support [*30 billion*](/notes/world-land-available)
 ::::
 :::
@@ -24,7 +24,7 @@ diet's nutrition, including the [fibre](https://web.archive.org/web/202101240212
 and energy. Sources include [**wholegrain wheat**](https://web.archive.org/web/20201101053151id_/http://www.whfoods.com/genpage.php?tname=foodspice&dbid=66#healthbenefits),
 ***barley***, ***oats***, ***rye***, ***rice***, ***beans***, ***chickpeas***,
 and ***buckwheat***. Less dense sources include ***maize***, ***potatoes***,
-***lentils***, and ***avocados***, for which more would be needed for the same
+***lentils***, and ***peas***, for which more would be needed for the same
 amount of energy. Around [a quarter](/notes/choline) should be legumes,
 such as [soybeans](https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/#h3)
 or chickpeas, for the [choline](https://web.archive.org/web/20210126120914id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=50).
@@ -38,24 +38,24 @@ and ***sunflower seeds***.
 **Seeds,** *10g,* [*30m^2^*](/notes/land-for-seeds), [recently ground](/notes/seed-sensitivity),
 are for the [omega−3](https://web.archive.org/web/20210125052152id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=84),
 while the fibres can be used for clothes. Sources include ***flax*** and ***hemp***,
-along with ***chia*** and ***walnuts*** when the fibres are not needed.
+along with ***chia*** and ***walnuts*** when fibres are not needed.
 
 **Leaves,** *30g,* [*10m^2^*](/notes/land-for-leaves), are for the [vitamin K](https://web.archive.org/web/20210126044628id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=112).
 Many dark green leaves are good candidates, such as ***kale***, ***spinach***,
 ***chard***, ***cress***, ***coriander***, ***basil***, and ***parsley***. For
-lighter leaves, such as ***lettuce***, the amounts should be doubled or tripled.
+lighter leaves, such as ***lettuce***, the amount should be doubled or tripled.
 
 **Fruits,** *60g,* [*80m^2^*](/notes/land-for-fruits),
 [*sensitive to age and heat*](/notes/fruit-sensitivity),
 are for the [vitamin C](https://web.archive.org/web/20210119183439id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=109).
 Sources include ***strawberries***, ***blackcurrants***, ***rosehips***,
 ***citrus fruits***, ***bell peppers***, ***broccoli***, two or three
-***tomatoes***, and increased ***leaves***.
+***tomatoes***, or double the ***leaves***.
 
 **Vegetables,** *120g fresh or 15g dried,* [*30m^2^*](/notes/land-for-vegetables),
 for the [vitamin A](https://web.archive.org/web/20210126050657id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=106).
 Sources include ***sweet potatoes***, ***carrots***, ***pumpkins***,
-and increased ***leaves***.
+and more ***leaves***.
 
 **Seaweed,** [*<1g dried*](https://www.sciencedirect.com/science/article/pii/S1021949814000155#tspara0010),
 for the [iodine](https://web.archive.org/web/20210126022043id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=69);
@@ -72,21 +72,19 @@ for the [vitamin D](https://web.archive.org/web/20210126034122id_/http://www.whf
 An alternative is a ***mushroom***, preferably shiitake for the [vitamin B~5~](https://web.archive.org/web/20210211074336id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=87),
 [cured for two days with gills facing the summer Sun](http://fungi.com/blogs/articles/place-mushrooms-in-sunlight-to-get-your-vitamin-d).
 
-**Soil,** is unfortunately the preferred habitat of the bacteria that produce
-[vitamin B~12~](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107).
-[Vegan](/notes/animal-products) sources include
-*a gram of dried [**duckweed**](/notes/duckweed)*,
-*a gram of dried [**chlorella**](/notes/chlorella)*,
-*a sheet of dried [**nori**](https://pubs.acs.org/doi/10.1021/jf981065c)*,
-aka ***purple laver***,
-[and](/notes/other-sources-of-b12)
-*perhaps [**dulse**](https://veganhealth.org/vitamin-b12/vitamin-b12-plant-foods/#various)*.
-Note, the plants above will also want [good soil](https://www.youtube.com/watch?v=ZgokeGNZnt8),
-and a source of water.
+**Soil,** particularly [manure](https://www.permaculturenews.org/2017/06/14/making-modern-day-night-soil/),
+is unfortunately the preferred habitat of the bacteria that produce [vitamin B~12~](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107).
+[Traditionally](https://en.wikipedia.org/wiki/Night_soil#History), large amounts
+likely came through [contamination](/notes/sources-of-b12). Otherwise, sources
+include *a sheet of dried [**nori**](https://pubs.acs.org/doi/10.1021/jf981065c)*,
+aka ***laver***, *a ¼ cup of [**dulse**](https://veganhealth.org/vitamin-b12/vitamin-b12-plant-foods/#various)*,
+or [a supplement](/notes/sources-of-b12). Note, the plants above will also want
+[good soil](https://youtu.be/PrrbQe1BFxk?t=100).
 
-**Land,** *a third of an acre* includes space for paths and storage, such as
-in a layout of *2 strips, each 520m × 1m with a 2ft path between*. With extra
-space, plant fruit and nut trees.
+**Land,** *a third of an acre* includes space for paths and storage, such
+as in a layout of *2 strips, each 520m × 1m with a 2ft path between*. A good
+location will have a [source of water](https://en.wikipedia.org/wiki/Rainwater_harvesting_in_the_United_Kingdom).
+With any extra space, plant fruit and nut trees.
 ::::
 
 :::: {#nutrition .nutrition .column}

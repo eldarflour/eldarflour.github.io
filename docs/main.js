@@ -1,5 +1,5 @@
 (() => {
-  // src/init/lib/classList.js
+  // src/init/lib/polyfills/classList.js
   if ("document" in self) {
     if (!("classList" in document.createElement("_")) || document.createElementNS && !("classList" in document.createElementNS("http://www.w3.org/2000/svg", "g"))) {
       (function(view) {
@@ -158,7 +158,7 @@
     })();
   }
 
-  // src/init/lib/closest.js
+  // src/init/lib/polyfills/closest.js
   function polyfill(window2) {
     const ElementPrototype = window2.Element.prototype;
     if (typeof ElementPrototype.matches !== "function") {
@@ -190,18 +190,6 @@
   polyfill(window);
 
   // src/main/main.js
-  function start_highlighter() {
-    let body_classes = document.body.classList;
-    window.addEventListener("click", function(event) {
-      let parent_link = event.target.closest("a");
-      let inside_link = parent_link !== null;
-      let link_is_local = inside_link ? parent_link.href.includes("#") : false;
-      if (!inside_link || link_is_local) {
-        body_classes.toggle("highlighting-active");
-      }
-    });
-    body_classes.add("highlighting");
-  }
   function fix_external_links() {
     let external_links = document.querySelectorAll("a[href*=':']");
     for (let i = 0; i < external_links.length; i++) {
@@ -232,7 +220,6 @@
     document.head.appendChild(styleNode);
   }
   function main() {
-    start_highlighter();
     fix_external_links();
     show_body();
   }
@@ -245,8 +232,21 @@
   }
   when_ready(main);
 
-  // usr/script.js
+  // usr/dev/script.js
+  function start_highlighter() {
+    let body_classes = document.body.classList;
+    window.addEventListener("click", function(event) {
+      let parent_link = event.target.closest("a");
+      let inside_link = parent_link !== null;
+      let link_is_local = inside_link ? parent_link.href.includes("#") : false;
+      if (!inside_link || link_is_local) {
+        body_classes.toggle("highlighting-active");
+      }
+    });
+    body_classes.add("highlighting");
+  }
   function main2() {
+    start_highlighter();
   }
   function when_ready2(f) {
     if (document.readyState != "loading") {

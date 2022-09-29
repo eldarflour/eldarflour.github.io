@@ -11,8 +11,8 @@ and [2020](https://assets.publishing.service.gov.uk/government/uploads/system/up
 As the [naked varieties](https://en.wikipedia.org/wiki/Avena_nuda) have
 a [25%](https://www.premiumcrops.com/spring-naked-oats.html) lower yield
 than the husked varieties, and organic tends to yield [*80%*](https://www.sciencedirect.com/science/article/pii/S0308521X1100182X)
-that of chemical methods, the organic yield for naked oats is then assumed
-to be around *327g/m^2^*, or *1323kg/acre*, or 19 times the amount planted.
+that of chemical methods, the organic yield for naked oats is assumed to
+be around *327g/m^2^*, or *1323kg/acre*, or 19 times the amount planted.
 For *600g* a day, one needs *((600×365)÷327) + (((600×365)÷19)÷327)*,
 or **705m^2^**.
 

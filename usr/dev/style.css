@@ -1,0 +1,94 @@
+body {
+	/* see: http:cssfontstack.com/Palatino */
+	font-family: P052, Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+}
+
+body > .index {
+	display: none;
+
+	> .subtitle {
+		order: 0;
+	}
+
+	@media screen {
+		> .subtitle {
+			font-size: @font-size-2;
+			line-height: @line-height-2;
+			padding-left: 0;
+		}
+
+		> .subtitle:not(:empty) + p,
+		> .subtitle:not(:empty) + .either {
+			display: none;
+		}
+	}
+}
+
+.page > .index a {
+	position: relative;
+	top: (1rem - (1rem / @ratio));
+}
+
+.nutrition ul li sub {
+	position: relative;
+	bottom: 0.25rem;
+}
+
+body.highlighting {
+	@media screen {
+		a,
+		p,
+		li,
+		em,
+		.line-block {
+			color: @foreground-colour;
+			transition: all @highlighting-speed;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.index {
+			opacity: 0;
+			user-select: none;
+			pointer-events: none;
+			transition: opacity @highlighting-speed;
+		}
+
+		.nutrition:target > p {
+			opacity: 0;
+			user-select: none;
+			pointer-events: none;
+			transition: opacity @highlighting-speed;
+		}
+
+		&.highlighting-active {
+			p,
+			li,
+			em,
+			.line-block {
+				color: fade(@foreground-colour, (100% - (100% / @ratio)));
+			}
+
+			a,
+			a em {
+				color: @foreground-colour;
+			}
+
+			.index {
+				opacity: 1;
+				user-select: auto;
+				pointer-events: auto;
+			}
+
+			.nutrition > p,
+			.nutrition > p > em {
+				opacity: 1;
+				user-select: auto;
+				pointer-events: auto;
+				color: @foreground-colour;
+			}
+		}
+	}
+}
