@@ -1,4 +1,4 @@
-# Sources of B~12~
+# Vitamin B~12~
 
 Here's an unpleasant thought: just [half a gram](https://link.springer.com/article/10.1007/BF00007957)
 of dried human fæces contains the daily requirement of [vitamin B~12~](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107).
