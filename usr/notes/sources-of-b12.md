@@ -2,8 +2,8 @@
 
 Here's an unpleasant thought: just [half a gram](https://link.springer.com/article/10.1007/BF00007957)
 of dried human fæces contains the daily requirement of [vitamin B~12~](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107).
-The bacteria that produce B~12~ inhabit fæces in particular, and so for that
-reason, the [rabbit eats its own fæces](https://www.quora.com/Do-animals-absorb-their-B12-by-the-bacteria-in-their-guts-or-do-they-need-to-eat-their-poop-afterwards-to-absorb-it/answer/Michael-McClennen),
+The bacteria that produce B~12~ inhabit fæces in particular. For this reason,
+the [rabbit eats its own fæces](https://www.quora.com/Do-animals-absorb-their-B12-by-the-bacteria-in-their-guts-or-do-they-need-to-eat-their-poop-afterwards-to-absorb-it/answer/Michael-McClennen),
 the [second stomach of the cow eats the fæces of the first](https://www.quora.com/Do-animals-absorb-their-B12-by-the-bacteria-in-their-guts-or-do-they-need-to-eat-their-poop-afterwards-to-absorb-it/answer/Michael-McClennen),
 and humans, [traditionally](https://en.wikipedia.org/wiki/Night_soil#History)
 grew their crops with [‘night soil’](https://www.growveg.co.uk/guides/using-animal-manure-in-the-vegetable-garden/),
@@ -41,15 +41,15 @@ meat and dairy are not viable sources of B~12~ for Britain as a whole,
 not when self-sufficiency is considered and [factory-farms](https://landofhopeandglory.org/)
 are avoided.
 
-Besides that, the fæces of omnivores and carnivores can't be used
-for manure; [it's too toxic](https://www.growveg.co.uk/guides/using-animal-manure-in-the-vegetable-garden/).
-This is especially relevant for humans, as humans [inherited their digestive tract](https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20200709022251961-0188:9781316339916:11859fig6_4.png)
-from their frugivore ancestors; its long and ridged nature ferments the
-food for longer, extracting more nutrients. The lion, however, has
-[a short and smooth digestive tract](http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png),
+Besides that, the fæces of omnivores and carnivores can't be used for
+manure; [it's too toxic](https://www.growveg.co.uk/guides/using-animal-manure-in-the-vegetable-garden/).
+This is especially relevant for humans, as humans inherited their digestive
+tract from their frugivore ancestors; [its long and ridged nature](https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20200709022251961-0188:9781316339916:11859fig6_4.png)
+ferments the food for longer, extracting more nutrients. The lion, however,
+has [a short and smooth digestive tract](http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png),
 as their diet is prone to rotting quickly and becoming toxic. The lion,
-therefore, avoids prolonged intestinal exposure to toxic material, which
-is difficult for omnivorous and carnivorous humans.
+therefore, avoids prolonged intestinal exposure to toxic material,
+which is difficult for omnivorous and carnivorous humans.
 
 Otherwise, algæ and duckweed are widely available, replicate rapidly,
 and have impressive nutritional profiles. However, they never really
