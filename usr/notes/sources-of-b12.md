@@ -20,8 +20,8 @@ history, culture, and [health](/basics). However, it is worth knowing
 the origin of these products, particularly in the modern era where
 [the production techniques](https://www.dominionmovement.com/)
 tend to come as a surprise, and
-[can](https://www.youtube.com/watch?v=elLPtQjqddQ)
-[raise](https://www.youtube.com/watch?v=Ag0c930-FNQ)
+[can](https://www.youtube.com/watch?v=6ai1xpi8bW0&list=PLw-_llSdTbqeGXrM1L3bEiUVAa_YNbIGi)
+[raise](https://www.youtube.com/watch?v=elLPtQjqddQ)
 [questions](https://www.youtube.com/watch?v=mNED7GJLY7I)
 of whether these products can be considered healthy,
 [despite](https://en.wikipedia.org/wiki/Environmental_impact_of_meat_production)
