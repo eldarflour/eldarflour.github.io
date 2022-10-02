@@ -479,33 +479,36 @@ li:last-child,
 li p:last-child {
   margin-bottom: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
 h6 {
-  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-bottom: calc(1.1rem / 1.618);
 }
 h5 {
   font-size: 1.125rem;
   line-height: 1.2375rem;
+  margin-bottom: calc(1.2375rem / 1.618);
 }
 h4 {
   font-size: 1.265625rem;
   line-height: 1.3921875rem;
+  margin-bottom: calc(1.3921875rem / 1.618);
 }
 h3 {
   font-size: 1.42382813rem;
   line-height: 1.56621094rem;
+  margin-bottom: calc(1.56621094rem / 1.618);
 }
 h2 {
   font-size: 1.60180664rem;
   line-height: 1.7619873rem;
+  margin-bottom: calc(1.7619873rem / 1.618);
 }
 h1 {
   font-size: 1.80203247rem;
   line-height: 1.98223572rem;
+  margin-bottom: calc(1.98223572rem / 1.618);
 }
 .line-block {
   white-space: nowrap;
@@ -783,6 +786,12 @@ body > .index > .subtitle {
 @media screen {
   body.highlighting a,
   body.highlighting p,
+  body.highlighting h1,
+  body.highlighting h2,
+  body.highlighting h3,
+  body.highlighting h4,
+  body.highlighting h5,
+  body.highlighting h6,
   body.highlighting li,
   body.highlighting em,
   body.highlighting .line-block {
@@ -798,13 +807,13 @@ body > .index > .subtitle {
     pointer-events: none;
     transition: opacity 0.61804697s;
   }
-  body.highlighting .nutrition:target > p {
-    opacity: 0;
-    user-select: none;
-    pointer-events: none;
-    transition: opacity 0.61804697s;
-  }
   body.highlighting.highlighting-active p,
+  body.highlighting.highlighting-active h1,
+  body.highlighting.highlighting-active h2,
+  body.highlighting.highlighting-active h3,
+  body.highlighting.highlighting-active h4,
+  body.highlighting.highlighting-active h5,
+  body.highlighting.highlighting-active h6,
   body.highlighting.highlighting-active li,
   body.highlighting.highlighting-active em,
   body.highlighting.highlighting-active .line-block {
@@ -818,6 +827,12 @@ body > .index > .subtitle {
     opacity: 1;
     user-select: auto;
     pointer-events: auto;
+  }
+  body.highlighting .nutrition:target > p {
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+    transition: opacity 0.61804697s;
   }
   body.highlighting.highlighting-active .nutrition > p,
   body.highlighting.highlighting-active .nutrition > p > em {
@@ -1149,18 +1164,19 @@ requires <a href="/notes/land-requirement"><strong><em>a third of an acre</em></
 </div>
 <div class="row">
 <div id="ingredients" class="ingredients column">
-<p><strong>Staples,</strong> <em>600g</em>, <a href="/notes/land-for-staples"><em>780m<sup>2</sup></em></a>, contain most of a diet’s nutrition, including the <a href="https://web.archive.org/web/20210124021241id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=59">fibre</a>, <a href="https://web.archive.org/web/20210121094444id_/http://whfoods.com/nutrientstoc.php">minerals</a>, <a href="https://web.archive.org/web/20210121094444id_/http://whfoods.com/nutrientstoc.php">B vitamins</a>, <a href="https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=92">protein</a>, and energy. Sources include <a href="https://web.archive.org/web/20201101053151id_/http://www.whfoods.com/genpage.php?tname=foodspice&amp;dbid=66#healthbenefits"><strong>wholegrain wheat</strong></a>, <strong><em>barley</em></strong>, <strong><em>oats</em></strong>, <strong><em>rye</em></strong>, <strong><em>rice</em></strong>, <strong><em>beans</em></strong>, <strong><em>chickpeas</em></strong>, and <strong><em>buckwheat</em></strong>. Less dense sources include <strong><em>maize</em></strong>, <strong><em>potatoes</em></strong>, <strong><em>lentils</em></strong>, and <strong><em>peas</em></strong>, for which more would be needed for the same amount of energy. Around <a href="/notes/choline">a quarter</a> should be legumes, such as <a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/#h3">soybeans</a> or chickpeas, for the <a href="https://web.archive.org/web/20210126120914id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=50">choline</a>.</p>
+<p><strong>Cereals,</strong> <em>450g</em>, <a href="/notes/land-for-cereals"><em>560m<sup>2</sup></em></a>, contain most of a diet’s nutrition, including the <a href="https://web.archive.org/web/20210124021241id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=59">fibre</a>, <a href="https://web.archive.org/web/20210121094444id_/http://whfoods.com/nutrientstoc.php">minerals</a>, <a href="https://web.archive.org/web/20210121094444id_/http://whfoods.com/nutrientstoc.php">B vitamins</a>, <a href="https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=92">protein</a>, and energy. Sources include <a href="https://web.archive.org/web/20201101053151id_/http://www.whfoods.com/genpage.php?tname=foodspice&amp;dbid=66#healthbenefits"><strong>wholegrain wheat</strong></a>, <strong><em>barley</em></strong>, <strong><em>oats</em></strong>, <strong><em>rye</em></strong>, <strong><em>rice</em></strong>, <strong><em>buckwheat</em></strong>, <em>maize</em>, and <em>potatoes</em>.</p>
+<p><strong>Pulses,</strong> <em>150g</em>, <a href="/notes/land-for-pulses"><em>220m<sup>2</sup></em></a>, are for the <a href="https://web.archive.org/web/20210126120914id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=50">choline</a>. Sources include <strong><em>beans</em></strong>, particularly <em>soybeans</em>, <strong><em>chickpeas</em></strong>, <em>lentils</em>, <em>peas</em>, <em>broccoli</em>, or more <em>nuts</em> and <em>wholegrains</em>. It’s a good idea to double this during pregnancy, reducing the cereals if needed.</p>
 <p><strong>Nuts,</strong> <em>30g,</em> <a href="/notes/land-for-nuts"><em>100m<sup>2</sup></em></a>, <em>recently dehulled,</em> are for the <a href="https://web.archive.org/web/20210126022330id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=111">vitamin E</a> and <a href="https://web.archive.org/web/20210211012750id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=42">B<sub>7</sub></a>. Sources include <strong><em>almonds</em></strong>, <strong><em>hazelnuts</em></strong>, <strong><em>pine nuts</em></strong>, <strong><em>peanuts</em></strong>, and <strong><em>sunflower seeds</em></strong>.</p>
 <p><strong>Seeds,</strong> <em>10g,</em> <a href="/notes/land-for-seeds"><em>30m<sup>2</sup></em></a>, <a href="/notes/seed-sensitivity">recently ground</a>, are for the <a href="https://web.archive.org/web/20210125052152id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=84">omega−3</a>, while the fibres can be used for clothes. Sources include <strong><em>flax</em></strong> and <strong><em>hemp</em></strong>, along with <strong><em>chia</em></strong> and <strong><em>walnuts</em></strong> when fibres are not needed.</p>
-<p><strong>Leaves,</strong> <em>30g,</em> <a href="/notes/land-for-leaves"><em>10m<sup>2</sup></em></a>, are for the <a href="https://web.archive.org/web/20210126044628id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=112">vitamin K</a>. Many dark green leaves are good candidates, such as <strong><em>kale</em></strong>, <strong><em>spinach</em></strong>, <strong><em>chard</em></strong>, <strong><em>cress</em></strong>, <strong><em>coriander</em></strong>, <strong><em>basil</em></strong>, and <strong><em>parsley</em></strong>. For lighter leaves, such as <strong><em>lettuce</em></strong>, the amount should be doubled or tripled.</p>
+<p><strong>Leaves,</strong> <em>30g fresh or 3g dried,</em> <a href="/notes/land-for-leaves"><em>10m<sup>2</sup></em></a>, are for the <a href="https://web.archive.org/web/20210126044628id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=112">vitamin K</a>. Many dark green leaves are good candidates, such as <strong><em>kale</em></strong>, <strong><em>spinach</em></strong>, <strong><em>chard</em></strong>, <strong><em>cress</em></strong>, <strong><em>coriander</em></strong>, <strong><em>basil</em></strong>, and <strong><em>parsley</em></strong>. For lighter leaves, such as <strong><em>lettuce</em></strong>, the amount should be doubled or tripled.</p>
 <p><strong>Fruits,</strong> <em>60g,</em> <a href="/notes/land-for-fruits"><em>80m<sup>2</sup></em></a>, <a href="/notes/fruit-sensitivity"><em>sensitive to age and heat</em></a>, are for the <a href="https://web.archive.org/web/20210119183439id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=109">vitamin C</a>. Sources include <strong><em>strawberries</em></strong>, <strong><em>blackcurrants</em></strong>, <strong><em>rosehips</em></strong>, <strong><em>citrus fruits</em></strong>, <strong><em>bell peppers</em></strong>, <strong><em>broccoli</em></strong>, two or three <strong><em>tomatoes</em></strong>, or double the <strong><em>leaves</em></strong>.</p>
-<p><strong>Vegetables,</strong> <em>120g fresh or 15g dried,</em> <a href="/notes/land-for-vegetables"><em>30m<sup>2</sup></em></a>, for the <a href="https://web.archive.org/web/20210126050657id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=106">vitamin A</a>. Sources include <strong><em>sweet potatoes</em></strong>, <strong><em>carrots</em></strong>, <strong><em>pumpkins</em></strong>, and more <strong><em>leaves</em></strong>.</p>
+<p><strong>Vegetables,</strong> <em>120g fresh or 20g dried,</em> <a href="/notes/land-for-vegetables"><em>30m<sup>2</sup></em></a>, for the <a href="https://web.archive.org/web/20210126050657id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=106">vitamin A</a>. Sources include <strong><em>sweet potatoes</em></strong>, <strong><em>carrots</em></strong>, <strong><em>pumpkins</em></strong>, and more <strong><em>leaves</em></strong>.</p>
 <p><strong>Seaweed,</strong> <a href="https://www.sciencedirect.com/science/article/pii/S1021949814000155#tspara0010"><em>&lt;1g dried</em></a>, for the <a href="https://web.archive.org/web/20210126022043id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=69">iodine</a>; can include <strong><em>kelp</em></strong>, <strong><em>dulse</em></strong>, <strong><em>wakame</em></strong>, or a few grams of dried <strong><em>nori</em></strong>, aka <strong><em>purple laver</em></strong>.</p>
 <p><strong>Chalk,</strong> <em>1g,</em> for the <a href="https://web.archive.org/web/20210126042937id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=45">calcium</a>. An alternative is gypsum-set <strong><em>tofu</em></strong>.</p>
 <p><strong>Salt,</strong> <em>6g,</em> for the sodium.</p>
 <p><strong>Sun,</strong> <a href="https://www.healthline.com/nutrition/vitamin-d-from-sun#time-of-day"><em>30–60min,</em></a> for the <a href="https://web.archive.org/web/20210126034122id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=110">vitamin D</a>. An alternative is a <strong><em>mushroom</em></strong>, preferably shiitake for the <a href="https://web.archive.org/web/20210211074336id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=87">vitamin B<sub>5</sub></a>, <a href="http://fungi.com/blogs/articles/place-mushrooms-in-sunlight-to-get-your-vitamin-d">cured for two days with gills facing the summer Sun</a>.</p>
-<p><strong>Soil,</strong> particularly <a href="https://www.permaculturenews.org/2017/06/14/making-modern-day-night-soil/">manure</a>, is unfortunately the preferred habitat of the bacteria that produce <a href="https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=107">vitamin B<sub>12</sub></a>. <a href="https://en.wikipedia.org/wiki/Night_soil#History">Traditionally</a>, large amounts likely came through <a href="/notes/sources-of-b12">contamination</a>. Otherwise, sources include <em>a sheet of dried <a href="https://pubs.acs.org/doi/10.1021/jf981065c"><strong>nori</strong></a></em>, aka <strong><em>laver</em></strong>, <em>a ¼ cup of <a href="https://veganhealth.org/vitamin-b12/vitamin-b12-plant-foods/#various"><strong>dulse</strong></a></em>, or <a href="/notes/sources-of-b12">a supplement</a>. Note, the plants above will also want <a href="https://youtu.be/PrrbQe1BFxk?t=100">good soil</a>.</p>
-<p><strong>Land,</strong> <em>a third of an acre</em> includes space for paths and storage, such as in a layout of <em>2 strips, each 520m × 1m with a 2ft path between</em>. A good location will have a <a href="https://en.wikipedia.org/wiki/Rainwater_harvesting_in_the_United_Kingdom">source of water</a>. With any extra space, plant fruit and nut trees.</p>
+<p><strong>Soil,</strong> <a href="/notes/sources-of-b12">particularly manure</a>, is unfortunately the preferred habitat of the bacteria that produce <a href="https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=107">vitamin B<sub>12</sub></a>. <a href="https://en.wikipedia.org/wiki/Night_soil#History">Traditionally</a>, large amounts likely came through <a href="/notes/sources-of-b12">contamination</a>. Otherwise, sources include <em>a sheet of dried <a href="https://pubs.acs.org/doi/10.1021/jf981065c"><strong>nori</strong></a></em>, aka <strong><em>laver</em></strong>, <em>a ¼ cup of <a href="https://veganhealth.org/vitamin-b12/vitamin-b12-plant-foods/#various"><strong>dulse</strong></a></em>, or <a href="/notes/sources-of-b12">a supplement</a>. Note, the plants above will also want <a href="https://youtu.be/PrrbQe1BFxk?t=100">good soil</a>.</p>
+<p><strong>Land,</strong> <em>a third of an acre</em> includes space for paths and storage, such as in a layout of <em>2 strips, each 520m × 1m with a 2ft path between</em>. A good location will have a <a href="https://en.wikipedia.org/wiki/Rainwater_harvesting_in_the_United_Kingdom#History">source of water</a>, and with any extra space, plant fruit and nut trees.</p>
 </div>
 <div id="nutrition" class="nutrition column">
 <ul>

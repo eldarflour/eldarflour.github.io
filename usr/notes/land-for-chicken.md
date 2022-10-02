@@ -8,7 +8,7 @@ supplementary, consisting of grain, scraps, and calcium.
 Chickens tend to eat around [an eighth](https://www.aces.edu/blog/topics/farming/nutrition-for-backyard-chicken-flocks/)
 of [what a human eats](/basics), or around [*125g*](https://www.smallholderfeed.co.uk/wp-content/uploads/2017/09/Feeding-Hens-Factsheet.pdf)
 of feed per day. As chicken feed [is basically grain](https://web.archive.org/web/20150325103301/http://www.chicken.org.au/page.php?id=6#Feed),
-this would require around [*170m^2^*](/notes/land-for-staples) to produce
+this would require around [*170m^2^*](/notes/land-for-cereals) to produce
 organically, or one twenty-fourth of an acre.
 
 With an average weight of [3kg](https://pethelpful.com/farm-pets/the-top-10-dual-purpose-chicken-breeds),
@@ -18,14 +18,14 @@ of liver. Assuming a ‘harvest’ every [12 weeks](https://www.researchgate.net
 each twenty-fourth will therefore produce around *8.6kg* of meat per year
 and *190g* of liver.
 
-As there is around [*6.9mcg* of B~12~ in the meat](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107)
-of a chicken and [*7.4mcg* in the liver](https://healthyeating.sfgate.com/much-vitamin-b12-chicken-livers-6063.html),
-each chicken contains around *14.3mcg* of B~12~, and so each twenty-fourth
-will produce around *61.5mcg* of B~12~ per year.
+As there is around [*6.9μg* of B~12~ in the meat](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107)
+of a chicken and [*7.4μg* in the liver](https://healthyeating.sfgate.com/much-vitamin-b12-chicken-livers-6063.html),
+each chicken contains around *14.3μg* of B~12~, and so each twenty-fourth
+will produce around *61.5μg* of B~12~ per year.
 
-A yearly B~12~ requirement of [*550mcg*](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/618167/government_dietary_recommendations.pdf)
-would therefore translate to forty birds per year, or nine twenty-fourths of an
-acre. A quarter of an acre would still be needed for the rest of the human's
+A yearly B~12~ requirement of [*550μg*](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/618167/government_dietary_recommendations.pdf)
+would therefore translate to nine twenty-fourths of an acre, or 38 birds per
+year. A quarter of an acre would still be needed for the rest of the human's
 nutrition.
 
 Chickens shouldn't be kept on the same land that is being used to grow

@@ -472,33 +472,36 @@ li:last-child,
 li p:last-child {
   margin-bottom: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
 h6 {
-  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-bottom: calc(1.1rem / 1.618);
 }
 h5 {
   font-size: 1.125rem;
   line-height: 1.2375rem;
+  margin-bottom: calc(1.2375rem / 1.618);
 }
 h4 {
   font-size: 1.265625rem;
   line-height: 1.3921875rem;
+  margin-bottom: calc(1.3921875rem / 1.618);
 }
 h3 {
   font-size: 1.42382813rem;
   line-height: 1.56621094rem;
+  margin-bottom: calc(1.56621094rem / 1.618);
 }
 h2 {
   font-size: 1.60180664rem;
   line-height: 1.7619873rem;
+  margin-bottom: calc(1.7619873rem / 1.618);
 }
 h1 {
   font-size: 1.80203247rem;
   line-height: 1.98223572rem;
+  margin-bottom: calc(1.98223572rem / 1.618);
 }
 .line-block {
   white-space: nowrap;
@@ -776,6 +779,12 @@ body > .index > .subtitle {
 @media screen {
   body.highlighting a,
   body.highlighting p,
+  body.highlighting h1,
+  body.highlighting h2,
+  body.highlighting h3,
+  body.highlighting h4,
+  body.highlighting h5,
+  body.highlighting h6,
   body.highlighting li,
   body.highlighting em,
   body.highlighting .line-block {
@@ -791,13 +800,13 @@ body > .index > .subtitle {
     pointer-events: none;
     transition: opacity 0.61804697s;
   }
-  body.highlighting .nutrition:target > p {
-    opacity: 0;
-    user-select: none;
-    pointer-events: none;
-    transition: opacity 0.61804697s;
-  }
   body.highlighting.highlighting-active p,
+  body.highlighting.highlighting-active h1,
+  body.highlighting.highlighting-active h2,
+  body.highlighting.highlighting-active h3,
+  body.highlighting.highlighting-active h4,
+  body.highlighting.highlighting-active h5,
+  body.highlighting.highlighting-active h6,
   body.highlighting.highlighting-active li,
   body.highlighting.highlighting-active em,
   body.highlighting.highlighting-active .line-block {
@@ -811,6 +820,12 @@ body > .index > .subtitle {
     opacity: 1;
     user-select: auto;
     pointer-events: auto;
+  }
+  body.highlighting .nutrition:target > p {
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+    transition: opacity 0.61804697s;
   }
   body.highlighting.highlighting-active .nutrition > p,
   body.highlighting.highlighting-active .nutrition > p > em {

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<title>animal products</title>
+		<title>land for cereals</title>
 		<style class='main'>
 /* src/main.post.css */
 *,
@@ -479,33 +479,36 @@ li:last-child,
 li p:last-child {
   margin-bottom: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
 h6 {
-  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-bottom: calc(1.1rem / 1.618);
 }
 h5 {
   font-size: 1.125rem;
   line-height: 1.2375rem;
+  margin-bottom: calc(1.2375rem / 1.618);
 }
 h4 {
   font-size: 1.265625rem;
   line-height: 1.3921875rem;
+  margin-bottom: calc(1.3921875rem / 1.618);
 }
 h3 {
   font-size: 1.42382813rem;
   line-height: 1.56621094rem;
+  margin-bottom: calc(1.56621094rem / 1.618);
 }
 h2 {
   font-size: 1.60180664rem;
   line-height: 1.7619873rem;
+  margin-bottom: calc(1.7619873rem / 1.618);
 }
 h1 {
   font-size: 1.80203247rem;
   line-height: 1.98223572rem;
+  margin-bottom: calc(1.98223572rem / 1.618);
 }
 .line-block {
   white-space: nowrap;
@@ -783,6 +786,12 @@ body > .index > .subtitle {
 @media screen {
   body.highlighting a,
   body.highlighting p,
+  body.highlighting h1,
+  body.highlighting h2,
+  body.highlighting h3,
+  body.highlighting h4,
+  body.highlighting h5,
+  body.highlighting h6,
   body.highlighting li,
   body.highlighting em,
   body.highlighting .line-block {
@@ -798,13 +807,13 @@ body > .index > .subtitle {
     pointer-events: none;
     transition: opacity 0.61804697s;
   }
-  body.highlighting .nutrition:target > p {
-    opacity: 0;
-    user-select: none;
-    pointer-events: none;
-    transition: opacity 0.61804697s;
-  }
   body.highlighting.highlighting-active p,
+  body.highlighting.highlighting-active h1,
+  body.highlighting.highlighting-active h2,
+  body.highlighting.highlighting-active h3,
+  body.highlighting.highlighting-active h4,
+  body.highlighting.highlighting-active h5,
+  body.highlighting.highlighting-active h6,
   body.highlighting.highlighting-active li,
   body.highlighting.highlighting-active em,
   body.highlighting.highlighting-active .line-block {
@@ -818,6 +827,12 @@ body > .index > .subtitle {
     opacity: 1;
     user-select: auto;
     pointer-events: auto;
+  }
+  body.highlighting .nutrition:target > p {
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+    transition: opacity 0.61804697s;
   }
   body.highlighting.highlighting-active .nutrition > p,
   body.highlighting.highlighting-active .nutrition > p > em {
@@ -1117,7 +1132,7 @@ body > .index > .subtitle {
 	</head>
 	<body>
 <div class='index' data-indexed='0'>
-	<span class='subtitle'>animal products</span>
+	<span class='subtitle'>land for cereals</span>
 <div class="either">
 <div class="print">
 <p><em>eldar<strong>flour</strong>.org</em></p>
@@ -1131,9 +1146,13 @@ body > .index > .subtitle {
 <li><a href="/">flour</a></li>
 </ul>
 </div>
-<div class='page' data-path='/notes/animal-products' data-title='animal products'>
-<p>The consumption of animal products is a practice intertwined with human history, culture, and <a href="/basics">health</a>. However, it is worth knowing the origin of these products, particularly in the modern era where <a href="https://www.dominionmovement.com/">the production techniques</a> tend to come as a surprise, and <a href="https://www.youtube.com/watch?v=mNED7GJLY7I">raise questions</a> about whether these products can be considered healthy, <a href="https://en.wikipedia.org/wiki/Environmental_impact_of_meat_production">despite</a> <a href="https://en.wikipedia.org/wiki/Antibiotic_use_in_livestock">the</a> <a href="https://en.wikipedia.org/wiki/Slaughterhouse#Worker_exploitation_concerns">presence</a> <a href="https://www.bbc.co.uk/news/health-24525584">of</a> <a href="https://en.wikipedia.org/wiki/Poultry_farming_in_the_United_States#Safety_issues">various</a> <a href="https://www.phrases.org.uk/meanings/243100.html">nutrients</a>.</p>
-<p>Besides that, the land requirement is steep. If everyone in <a href="/notes/british-land-available">Britain</a> obtained their <a href="https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=107#foodchart">vitamin B<sub>12</sub></a> from home-raised chicken, while otherwise following <a href="/basics">a basic diet</a>, then there would be land for around <a href="/notes/land-for-chicken"><em>45 million people</em></a>, with even less for conventionally-produced <a href="https://ourworldindata.org/grapher/land-use-per-kg-poore">beef, lamb, pork, and cheese</a>. With a population of <a href="https://en.wikipedia.org/wiki/Demography_of_the_United_Kingdom"><em>65 million people</em></a>, meat and dairy would therefore not be viable sources of B<sub>12</sub> for Britain as a whole, not when self-sufficiency is considered and <a href="https://landofhopeandglory.org/">factory-farms</a> are avoided.</p>
+<div class='page' data-path='/notes/land-for-cereals' data-title='land for cereals'>
+<h2 id="wheat">Wheat</h2>
+<p>The seeding rate is <a href="https://www.cotswoldseeds.com/species/105/wheat"><em>75kg/acre</em></a>, and the organic yield is around <a href="https://academic.oup.com/bioscience/article/55/10/820/274240"><em>330g/m<sup>2</sup></em></a>, or <em>1335kg/acre</em>, or 18 times the amount planted. For <em>475g</em> a day, one needs <em>((475×365)÷330) + (((475×365)÷18)÷330)</em>, or <strong>555m<sup>2</sup></strong>.</p>
+<h2 id="oats">Oats</h2>
+<p>The seeding rate is <a href="https://www.cotswoldseeds.com/species/106/oats"><em>70kg/acre</em></a>. The average yield for standard oats was <em>545g/m<sup>2</sup></em> across <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/868943/structure-jun2019prov-UK-28feb20.pdf">2019</a> and <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/946161/structure-jun2020final-uk-22dec20.pdf">2020</a>. As the <a href="https://en.wikipedia.org/wiki/Avena_nuda">naked varieties</a> have a <a href="https://www.premiumcrops.com/spring-naked-oats.html">25%</a> lower yield than the husked varieties, and organic tends to yield <a href="https://www.sciencedirect.com/science/article/pii/S0308521X1100182X"><em>80%</em></a> that of chemical methods, the organic yield for naked oats is assumed to be around <em>327g/m<sup>2</sup></em>, or <em>1323kg/acre</em>, or 19 times the amount planted. For <em>400g</em> a day, one needs <em>((400×365)÷327) + (((400×365)÷19)÷327)</em>, or <strong>470m<sup>2</sup></strong>.</p>
+<h2 id="potatoes">Potatoes</h2>
+<p>The organic yield is around <a href="https://www.organicresearchcentre.com/manage/authincludes/article_uploads/Potato_guide_ORC_Download.pdf"><em>1500g/m<sup>2</sup></em></a>. For <em>2kg</em> a day, one needs <em>((2000×365)÷1500)</em>, or <strong>487m<sup>2</sup></strong>.</p>
 </div>
 	</body>
 </html>

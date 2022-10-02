@@ -38,6 +38,12 @@ body.highlighting {
 	@media screen {
 		a,
 		p,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
 		li,
 		em,
 		.line-block {
@@ -56,15 +62,14 @@ body.highlighting {
 			transition: opacity @highlighting-speed;
 		}
 
-		.nutrition:target > p {
-			opacity: 0;
-			user-select: none;
-			pointer-events: none;
-			transition: opacity @highlighting-speed;
-		}
-
 		&.highlighting-active {
 			p,
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6,
 			li,
 			em,
 			.line-block {
@@ -81,7 +86,16 @@ body.highlighting {
 				user-select: auto;
 				pointer-events: auto;
 			}
+		}
 
+		.nutrition:target > p {
+			opacity: 0;
+			user-select: none;
+			pointer-events: none;
+			transition: opacity @highlighting-speed;
+		}
+
+		&.highlighting-active {
 			.nutrition > p,
 			.nutrition > p > em {
 				opacity: 1;

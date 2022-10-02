@@ -479,33 +479,36 @@ li:last-child,
 li p:last-child {
   margin-bottom: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
 h6 {
-  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-bottom: calc(1.1rem / 1.618);
 }
 h5 {
   font-size: 1.125rem;
   line-height: 1.2375rem;
+  margin-bottom: calc(1.2375rem / 1.618);
 }
 h4 {
   font-size: 1.265625rem;
   line-height: 1.3921875rem;
+  margin-bottom: calc(1.3921875rem / 1.618);
 }
 h3 {
   font-size: 1.42382813rem;
   line-height: 1.56621094rem;
+  margin-bottom: calc(1.56621094rem / 1.618);
 }
 h2 {
   font-size: 1.60180664rem;
   line-height: 1.7619873rem;
+  margin-bottom: calc(1.7619873rem / 1.618);
 }
 h1 {
   font-size: 1.80203247rem;
   line-height: 1.98223572rem;
+  margin-bottom: calc(1.98223572rem / 1.618);
 }
 .line-block {
   white-space: nowrap;
@@ -783,6 +786,12 @@ body > .index > .subtitle {
 @media screen {
   body.highlighting a,
   body.highlighting p,
+  body.highlighting h1,
+  body.highlighting h2,
+  body.highlighting h3,
+  body.highlighting h4,
+  body.highlighting h5,
+  body.highlighting h6,
   body.highlighting li,
   body.highlighting em,
   body.highlighting .line-block {
@@ -798,13 +807,13 @@ body > .index > .subtitle {
     pointer-events: none;
     transition: opacity 0.61804697s;
   }
-  body.highlighting .nutrition:target > p {
-    opacity: 0;
-    user-select: none;
-    pointer-events: none;
-    transition: opacity 0.61804697s;
-  }
   body.highlighting.highlighting-active p,
+  body.highlighting.highlighting-active h1,
+  body.highlighting.highlighting-active h2,
+  body.highlighting.highlighting-active h3,
+  body.highlighting.highlighting-active h4,
+  body.highlighting.highlighting-active h5,
+  body.highlighting.highlighting-active h6,
   body.highlighting.highlighting-active li,
   body.highlighting.highlighting-active em,
   body.highlighting.highlighting-active .line-block {
@@ -818,6 +827,12 @@ body > .index > .subtitle {
     opacity: 1;
     user-select: auto;
     pointer-events: auto;
+  }
+  body.highlighting .nutrition:target > p {
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+    transition: opacity 0.61804697s;
   }
   body.highlighting.highlighting-active .nutrition > p,
   body.highlighting.highlighting-active .nutrition > p > em {
@@ -1132,9 +1147,14 @@ body > .index > .subtitle {
 </ul>
 </div>
 <div class='page' data-path='/notes/sources-of-b12' data-title='sources of b12'>
-<p>It is likely that <a href="https://www.beyondveg.com/billings-t/comp-anat/comp-anat-7d.shtml">significant amounts</a> of dietary B<sub>12</sub> <a href="https://en.wikipedia.org/wiki/Night_soil#History">traditionally</a> came through <a href="https://www.beyondveg.com/billings-t/comp-anat/comp-anat-7d.shtml">contamination</a>. In fact, here’s an unpleasant thought: just <a href="https://link.springer.com/article/10.1007/BF00007957">half a gram</a> of dried human fæces contains the daily requirement of vitamin B<sub>12</sub>. This is less likely since the introduction of chemical agriculture, but, previously, <a href="https://en.wikipedia.org/wiki/Night_soil">‘night soil’</a> was commonly used throughout the world.</p>
-<p>Perhaps for this reason, other sources include <a href="/notes/duckweed"><strong>duckweed</strong></a>; <strong>algæ</strong>, including <a href="/notes/chlorella">chlorella</a> and <a href="https://pubs.acs.org/doi/10.1021/jf0101556">coccolithophores</a>; <strong>seaweed</strong>, including <a href="https://pubs.acs.org/doi/10.1021/jf981065c">nori</a>, aka laver, and <a href="https://veganhealth.org/vitamin-b12/vitamin-b12-plant-foods/#various">dulse</a>; and <a href="https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=107">animal products</a>, although <a href="/notes/animal-products">their viability is debatable</a>.</p>
-<p>However, despite their wide availability, rapid replication, and impressive nutritional profiles, algæ and duckweed have never really become culinary staples. For that reason, it may be useful to look at them as ways of making <a href="/notes/duckweed">natural B<sub>12</sub> supplements</a>, rather than as food. Otherwise, for synthetic supplements, note that excessive B<sub>12</sub> levels <a href="https://www.theatlantic.com/health/archive/2017/08/b12-energy/537654/">can be harmful</a>.</p>
+<h1 id="sources-of-b12">Sources of B<sub>12</sub></h1>
+<p>Here’s an unpleasant thought: just <a href="https://link.springer.com/article/10.1007/BF00007957">half a gram</a> of dried human fæces contains the daily requirement of <a href="https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=107">vitamin B<sub>12</sub></a>. The bacteria that produce B<sub>12</sub> inhabit fæces in particular, and so for that reason, the <a href="https://www.quora.com/Do-animals-absorb-their-B12-by-the-bacteria-in-their-guts-or-do-they-need-to-eat-their-poop-afterwards-to-absorb-it/answer/Michael-McClennen">rabbit eats its own fæces</a>, the <a href="https://www.quora.com/Do-animals-absorb-their-B12-by-the-bacteria-in-their-guts-or-do-they-need-to-eat-their-poop-afterwards-to-absorb-it/answer/Michael-McClennen">second stomach of the cow eats the fæces of the first</a>, and humans, <a href="https://en.wikipedia.org/wiki/Night_soil#History">traditionally</a> grew their crops with <a href="https://www.growveg.co.uk/guides/using-animal-manure-in-the-vegetable-garden/">‘night soil’</a>, leading to <a href="https://www.beyondveg.com/billings-t/comp-anat/comp-anat-7d.shtml">normal levels of B<sub>12</sub> in their blood</a>.</p>
+<p>Perhaps for this reason, other sources include <a href="/notes/duckweed"><strong>duckweed</strong></a>; <strong>algæ</strong>, including <a href="/notes/chlorella">chlorella</a> and <a href="https://pubs.acs.org/doi/10.1021/jf0101556">coccolithophores</a>; <strong>seaweed</strong>, including <a href="https://pubs.acs.org/doi/10.1021/jf981065c">nori</a>, aka laver, and <a href="https://veganhealth.org/vitamin-b12/vitamin-b12-plant-foods/#various">dulse</a>; and <a href="https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=107">animal products</a>.</p>
+<p>The consumption of animal products is a practice intertwined with human history, culture, and <a href="/basics">health</a>. However, it is worth knowing the origin of these products, particularly in the modern era where <a href="https://www.dominionmovement.com/">the production techniques</a> tend to come as a surprise, and <a href="https://www.youtube.com/watch?v=elLPtQjqddQ">can</a> <a href="https://www.youtube.com/watch?v=Ag0c930-FNQ">raise</a> <a href="https://www.youtube.com/watch?v=mNED7GJLY7I">questions</a> of whether these products can be considered healthy, <a href="https://en.wikipedia.org/wiki/Environmental_impact_of_meat_production">despite</a> <a href="https://en.wikipedia.org/wiki/Antibiotic_use_in_livestock">the</a> <a href="https://en.wikipedia.org/wiki/Slaughterhouse#Worker_exploitation_concerns">presence</a> <a href="https://www.bbc.co.uk/news/health-24525584">of</a> <a href="https://en.wikipedia.org/wiki/Poultry_farming_in_the_United_States#Safety_issues">various</a> <a href="https://www.phrases.org.uk/meanings/243100.html">nutrients</a>.</p>
+<p>The land requirement is also steep. If everyone in <a href="/notes/british-land-available">Britain</a> obtained their B<sub>12</sub> from home-raised chicken, while otherwise following <a href="/basics">a basic diet</a>, then there would be land for around <a href="/notes/land-for-chicken"><em>45 million people</em></a>, with even less for <a href="https://ourworldindata.org/grapher/land-use-per-kg-poore">beef, lamb, pork, and cheese</a>. With a population of <a href="https://en.wikipedia.org/wiki/Demography_of_the_United_Kingdom"><em>65 million people</em></a>, meat and dairy are not viable sources of B<sub>12</sub> for Britain as a whole, not when self-sufficiency is considered and <a href="https://landofhopeandglory.org/">factory-farms</a> are avoided.</p>
+<p>Besides that, the fæces of omnivores and carnivores can’t be used for manure; <a href="https://www.growveg.co.uk/guides/using-animal-manure-in-the-vegetable-garden/">it’s too toxic</a>. This is especially relevant for humans, as humans <a href="https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20200709022251961-0188:9781316339916:11859fig6_4.png">inherited their digestive tract</a> from their frugivore ancestors; its long and ridged nature ferments the food for longer, extracting more nutrients. The lion, however, has <a href="http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png">a short and smooth digestive tract</a>, as their diet is prone to rotting quickly and becoming toxic. The lion, therefore, avoids prolonged intestinal exposure to toxic material, which is difficult for omnivorous and carnivorous humans.</p>
+<p>Otherwise, algæ and duckweed are widely available, replicate rapidly, and have impressive nutritional profiles. However, they never really became culinary staples. For that reason, it may be useful to look at them as ways of making <a href="/notes/duckweed">natural supplements</a>, rather than as food. For synthetic supplements or fortification, note that <a href="https://www.theatlantic.com/health/archive/2017/08/b12-energy/537654/">excess B<sub>12</sub> can be harmful</a>; a few micrograms is enough.</p>
+<p>Or, you’ll need to eat a lot of seaweed. <a href="https://www.bbc.co.uk/religion/religions/buddhism/beliefs/fournobletruths_1.shtml">Life is suffering.</a></p>
 </div>
 	</body>
 </html>

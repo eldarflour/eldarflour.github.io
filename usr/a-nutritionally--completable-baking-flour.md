@@ -17,7 +17,7 @@
 for the minerals and fibre. Sources include barley, wheat, oats, and rye.
 
 **White flour,** *320g,* for the energy and texture; the amount can be
-increased and decreased as needed. It is healthier if more of the white
+increased and decreased as needed. It's healthier if more of the white
 flour is replaced with wholegrain, increasing the water.
 
 **Nuts,** *30g,* *recently ground*, for the vitamin E and B~7~.
@@ -40,15 +40,17 @@ if it's been UV-treated. If it's not fortified with B~12~, either
 
 **Kelp,** *powder,* *a pinch,* for the iodine.
 
-**Chalk,** *1g,* aka calcium carbonate. An alternative is tofu set with calcium sulphate.
+**Chalk,** *1g,* aka calcium carbonate. An alternative is tofu set with gypsum,
+aka calcium sulphate.
 
-**Salt,** *around 10g,* for the sodium. Preferably a low-sodium salt
-for the increased potassium. For a self-raising flour, instead add around 10g
-of cream of tartar, aka potassium bitartrate, half that of baking soda, and
-a few grams of standard salt.
+**Salt,** *around 10g,* for the sodium. Preferably a low-sodium salt for
+the increased potassium, as they are usually half sodium chloride and half
+potassium chloride. For a self-raising flour, instead add around 10g of cream
+of tartar, aka potassium bitartrate, half that of baking soda, and a few
+grams of standard salt.
 
 **Choline bitartrate,** *1g,* *optional,* for the choline, i.e. the B~4~. This
-is less relevant for those that have replaced all of the white flour with wholegrains,
+is less relevant for those who have replaced all of the white flour with wholegrains,
 or [whole foods in general](https://web.archive.org/web/20210126120914id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=50#foodsources).
 Otherwise, it's worth mixing with half a gram of baking soda and water to
 neutralise the acidic taste.
@@ -56,14 +58,15 @@ neutralise the acidic taste.
 **Leaves,** *3g dried or 12g fresh,* for the vitamin K. Here dried thyme
 was used, but many dark green [leaves and herbs](/basics) are good candidates;
 lighter green leaves have lower concentrations, such as lettuce, for which
-80 grams is better. These, the nuts, seeds, fruit, and some of the wholegrains
-can also work well on the side, such as in a soup, sauce, or smoothie.
+80 grams is better. These, the nuts, seeds, [fruit](/basics), and some of
+the wholegrains can also work well on the side, such as in a soup, sauce,
+or smoothie.
 
 **Olive oil,** *around a tablespoon,* *optional*. Alternatives include
 coconut, avocado, hazelnut, and [high-oleic sunflower oil](https://www.youtube.com/watch?v=7kGnfXXIKZM).
 
 **Water,** *around 300ml,* [varies](https://en.wikipedia.org/wiki/Baker_percentage#Dough_hydration)
-depending on method, ingredients, climate, etc. Add less at first, and more
+depending on the method, ingredients, climate, etc. Add less at first, and more
 if needed.
 
 The result is a simple, [healthy](#nutrition), adaptable [baking](https://www.manjulaskitchen.com/roti-chapati-flat-indian-bread/)
