@@ -49,7 +49,7 @@ ferments the food for longer, extracting more nutrients. The lion, however,
 has [a short and smooth digestive tract](http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png),
 as their diet is prone to rotting quickly and becoming toxic. The lion,
 therefore, avoids prolonged intestinal exposure to toxic material,
-which is difficult for omnivorous and carnivorous humans.
+[which is difficult for omnivorous and carnivorous humans](https://www.bowelcanceruk.org.uk/news-and-blogs/news/new-research-says-even-moderate-red-and-processed-meat-eaters-at-risk-of-bowel-cancer/).
 
 Otherwise, algæ and duckweed are widely available, replicate rapidly,
 and have impressive nutritional profiles. However, they never really
