@@ -43,7 +43,8 @@ are for the [omega−3](https://web.archive.org/web/20210125052152id_/http://www
 while the fibres can be used for clothes. Sources include ***flax*** and ***hemp***,
 along with ***chia*** and ***walnuts*** when fibres are not needed.
 
-**Leaves,** *30g fresh or 3g dried,* [*10m^2^*](/notes/land-for-leaves), are for the [vitamin K](https://web.archive.org/web/20210126044628id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=112).
+**Leaves,** *30g fresh or 3g dried,* [*10m^2^*](/notes/land-for-leaves),
+are for the [vitamin K](https://web.archive.org/web/20210126044628id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=112).
 Many dark green leaves are good candidates, such as ***kale***, ***spinach***,
 ***chard***, ***cress***, ***coriander***, ***basil***, and ***parsley***. For
 lighter leaves, such as ***lettuce***, the amount should be doubled or tripled.
