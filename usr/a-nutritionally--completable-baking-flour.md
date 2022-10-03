@@ -49,11 +49,11 @@ potassium chloride. For a self-raising flour, instead add around 10g of cream
 of tartar, aka potassium bitartrate, half that of baking soda, and a few
 grams of standard salt.
 
-**Choline bitartrate,** *1g,* *optional,* for the choline, i.e. the B~4~. This
-is less relevant for those who have replaced all of the white flour with wholegrains,
-or [whole foods in general](https://web.archive.org/web/20210126120914id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=50#foodsources).
-Otherwise, it's worth mixing with half a gram of baking soda and water to
-neutralise the acidic taste.
+**Choline bitartrate,** *1g,* for the choline, i.e. the B~4~. This is
+less relevant for those who have replaced all of the white flour with
+wholegrains, or [whole foods in general](https://web.archive.org/web/20210126120914id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=50#foodsources).
+Otherwise, it's worth mixing with half a gram of baking soda and water
+to neutralise the acidic taste.
 
 **Leaves,** *3g dried or 12g fresh,* for the vitamin K. Here dried thyme
 was used, but many dark green [leaves and herbs](/basics) are good candidates;
@@ -70,8 +70,8 @@ depending on the method, ingredients, climate, etc. Add less at first, and more
 if needed.
 
 The result is a simple, [healthy](#nutrition), adaptable [baking](https://www.manjulaskitchen.com/roti-chapati-flat-indian-bread/)
-flour. It's best with sources of [protein](https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=92),
-such as [lentils, beans, peas, chickpeas, avocados, and tofu](/basics).
+flour. To complete the [protein](https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=92),
+it's best paired with either [lentils, beans, peas, chickpeas, avocados, or tofu](/basics).
 ::::
 
 :::: {#nutrition .nutrition .column}

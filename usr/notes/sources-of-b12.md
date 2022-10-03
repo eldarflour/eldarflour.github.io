@@ -2,11 +2,12 @@
 
 Here's an unpleasant thought: just [half a gram](https://link.springer.com/article/10.1007/BF00007957)
 of dried human fæces contains the daily requirement of [vitamin B~12~](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107).
-The bacteria that produce B~12~ inhabit fæces in particular, and as a result,
-the [rabbit eats its own fæces](https://www.quora.com/Do-animals-absorb-their-B12-by-the-bacteria-in-their-guts-or-do-they-need-to-eat-their-poop-afterwards-to-absorb-it/answer/Michael-McClennen),
+The bacteria that produce vitamin B~12~ inhabit fæces in particular, and as
+a result, the [rabbit eats its own fæces](https://www.quora.com/Do-animals-absorb-their-B12-by-the-bacteria-in-their-guts-or-do-they-need-to-eat-their-poop-afterwards-to-absorb-it/answer/Michael-McClennen),
 the [second stomach of the cow eats the fæces of the first](https://en.wikipedia.org/wiki/Vitamin_B12#Bacteria_and_archaea),
 and humans, [traditionally](https://en.wikipedia.org/wiki/Night_soil#History)
-grew their crops with [‘night soil’](https://www.beyondveg.com/billings-t/comp-anat/comp-anat-7d.shtml).
+grew their crops with [‘night soil’](https://www.growveg.co.uk/guides/using-animal-manure-in-the-vegetable-garden/),
+leading to [normal levels of B~12~ in their blood](https://www.beyondveg.com/billings-t/comp-anat/comp-anat-7d.shtml).
 
 Perhaps for similar reasons, other sources include [**duckweed**](/notes/duckweed);
 **algæ**, including [chlorella](/notes/chlorella) and [coccolithophores](https://pubs.acs.org/doi/10.1021/jf0101556);
@@ -53,11 +54,10 @@ therefore, avoids prolonged intestinal exposure to toxic material,
 
 ## Other
 
-Algæ and duckweed are widely available, replicate rapidly,
-and have impressive nutritional profiles, and yet people rarely
-use them in food. For this reason, it may be useful to look at
-them as ways of making [natural supplements](/notes/duckweed)
-instead. For synthetic supplements and fortification, note that
-more than a few micrograms [may be harmful](https://www.theatlantic.com/health/archive/2017/08/b12-energy/537654/).
+Algæ and duckweed are widely available, replicate rapidly, and have
+impressive nutritional profiles, and yet they are rarely used in food.
+For this reason, it may be useful to look at them as ways of making
+[natural supplements](/notes/duckweed) instead. For synthetic supplements
+and fortification, note that more than a few micrograms [may be harmful](https://www.theatlantic.com/health/archive/2017/08/b12-energy/537654/).
 
 Or, a lot of seaweed. [Life is suffering.](https://www.bbc.co.uk/religion/religions/buddhism/beliefs/fournobletruths_1.shtml)
