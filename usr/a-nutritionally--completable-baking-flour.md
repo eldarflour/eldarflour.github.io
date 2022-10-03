@@ -60,7 +60,8 @@ was used, but many dark green [leaves and herbs](/basics) are good candidates;
 lighter green leaves have lower concentrations, such as lettuce, for which
 80 grams is better. These, the nuts, seeds, [fruit](/basics), and some of
 the wholegrains can also work well on the side, such as in a soup, sauce,
-or smoothie.
+or smoothie. While optional, this split can lead to less nutrient loss,
+and more neutral results.
 
 **Olive oil,** *around a tablespoon,* *optional*. Alternatives include
 coconut, avocado, hazelnut, and [high-oleic sunflower oil](https://www.youtube.com/watch?v=7kGnfXXIKZM).
@@ -71,7 +72,7 @@ if needed.
 
 The result is a simple, [healthy](#nutrition), adaptable [baking](https://www.manjulaskitchen.com/roti-chapati-flat-indian-bread/)
 flour. It's best paired with sources of [protein](https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=92),
-such as [lentils, beans, peas, chickpeas, avocados, or tofu](/basics).
+such as [lentils, beans, peas, chickpeas, avocados, and tofu](/basics).
 ::::
 
 :::: {#nutrition .nutrition .column}
