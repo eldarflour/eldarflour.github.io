@@ -70,8 +70,8 @@ depending on the method, ingredients, climate, etc. Add less at first, and more
 if needed.
 
 The result is a simple, [healthy](#nutrition), adaptable [baking](https://www.manjulaskitchen.com/roti-chapati-flat-indian-bread/)
-flour. To complete the [protein](https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=92),
-it's best paired with either [lentils, beans, peas, chickpeas, avocados, or tofu](/basics).
+flour. It's best paired with sources of [protein](https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=92),
+such as [lentils, beans, peas, chickpeas, avocados, or tofu](/basics).
 ::::
 
 :::: {#nutrition .nutrition .column}
