@@ -38,8 +38,8 @@ home-raised poultry, while otherwise following [a basic diet](/basics),
 then there would be land for around [*45 million people*](/notes/land-for-chicken),
 with even less for [beef, lamb, pork, and cheese](https://ourworldindata.org/grapher/land-use-per-kg-poore).
 With a population of [*65 million people*](https://en.wikipedia.org/wiki/Demography_of_the_United_Kingdom),
-meat and dairy are not viable sources of B~12~ for Britain as a whole,
-not when self-sufficiency is considered and [factory-farms](https://landofhopeandglory.org/)
+meat and dairy are not viable sources of B~12~ for Britain as a whole, not when
+self-sufficiency is considered and [factory-farms](https://landofhopeandglory.org/)
 are avoided.
 
 Besides that, the fæces of omnivores and carnivores can't be used for
@@ -50,12 +50,12 @@ ferments the food for longer, extracting more nutrients. The lion, however,
 has [a short and smooth digestive tract](http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png),
 as their diet is prone to rotting quickly and becoming toxic. The lion,
 therefore, avoids prolonged intestinal exposure to toxic material,
-[which is difficult for omnivorous and carnivorous humans](https://www.bowelcanceruk.org.uk/news-and-blogs/news/new-research-says-even-moderate-red-and-processed-meat-eaters-at-risk-of-bowel-cancer/).
+[which is difficult for omnivorous and carnivorous humans](/notes/the-digestion-of-meat).
 
 ## Other
 
-Algæ and duckweed are widely available, replicate rapidly, and have
-impressive nutritional profiles, and yet they are rarely used in food.
+While algæ and duckweed are widely available, replicate rapidly, and
+have impressive nutritional profiles, they are rarely used in food.
 For this reason, it may be useful to look at them as ways of making
 [natural supplements](/notes/duckweed) instead. For synthetic supplements
 and fortification, note that more than a few micrograms [may be harmful](https://www.theatlantic.com/health/archive/2017/08/b12-energy/537654/).

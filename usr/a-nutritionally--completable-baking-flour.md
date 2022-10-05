@@ -44,7 +44,7 @@ if it's been UV-treated. If it's not fortified with B~12~, either
 aka calcium sulphate.
 
 **Salt,** *around 10g,* for the sodium. Preferably a low-sodium salt for
-the increased potassium, as they are usually half sodium chloride and half
+the increased potassium; they are usually half sodium chloride and half
 potassium chloride. For a self-raising flour, instead add around 10g of cream
 of tartar, aka potassium bitartrate, half that of baking soda, and a few
 grams of standard salt.
@@ -60,8 +60,8 @@ was used, but many dark green [leaves and herbs](/basics) are good candidates;
 lighter green leaves have lower concentrations, such as lettuce, for which
 80 grams is better. These, the nuts, seeds, [fruit](/basics), and some of
 the wholegrains can also work well on the side, such as in a soup, sauce,
-or smoothie. While optional, this split can lead to less nutrient loss,
-and more neutral results.
+or smoothie. This can lead to less [nutrient loss](/notes/nutrient-loss),
+depending on the methods used, along with more neutral results.
 
 **Olive oil,** *around a tablespoon,* *optional*. Alternatives include
 coconut, avocado, hazelnut, and [high-oleic sunflower oil](https://www.youtube.com/watch?v=7kGnfXXIKZM).
