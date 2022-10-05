@@ -46,11 +46,11 @@ Besides that, the fæces of omnivores and carnivores can't be used for
 manure; [it's too toxic](https://www.growveg.co.uk/guides/using-animal-manure-in-the-vegetable-garden/).
 This is especially relevant for humans, as humans inherited their digestive
 tract from their frugivore ancestors; [its long and ridged nature](https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20200709022251961-0188:9781316339916:11859fig6_4.png)
-ferments the food for longer, extracting more nutrients. The lion, however,
-has [a short and smooth digestive tract](http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png),
-as their diet is prone to rotting quickly and becoming toxic. The lion,
-therefore, avoids prolonged intestinal exposure to toxic material,
-[which is difficult for omnivorous and carnivorous humans](/notes/the-digestion-of-meat).
+ferments food for longer, extracting more nutrients. Whereas the lion has
+[a short and smooth digestive tract](http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png),
+more suited to a diet that is prone to [rotting quickly and becoming toxic](https://en.wikipedia.org/wiki/Meat_spoilage).
+It therefore avoids prolonged intestinal exposure to toxic material,
+[which is difficult for humans](/notes/the-digestion-of-meat).
 
 ## Other
 
