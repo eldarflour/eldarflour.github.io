@@ -13,7 +13,7 @@ Perhaps for similar reasons, other sources include [**duckweed**](/notes/duckwee
 **algæ**, including [chlorella](/notes/chlorella) and [coccolithophores](https://pubs.acs.org/doi/10.1021/jf0101556);
 **seaweed**, including [nori](https://pubs.acs.org/doi/10.1021/jf981065c), aka
 laver, and [dulse](https://veganhealth.org/vitamin-b12/vitamin-b12-plant-foods/#various);
-and [animal products](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107).
+along with [animal products](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107).
 
 ## Animal Products
 
@@ -46,8 +46,8 @@ Besides that, the fæces of omnivores and carnivores can't be used for
 manure; [it's too toxic](https://www.growveg.co.uk/guides/using-animal-manure-in-the-vegetable-garden/).
 This is especially relevant for humans, as humans inherited their digestive
 tract from their frugivore ancestors; [its long and ridged nature](https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20200709022251961-0188:9781316339916:11859fig6_4.png)
-ferments food for longer, extracting more nutrients. Whereas the lion has
-[a short and smooth digestive tract](http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png),
+ferments food for longer, extracting more nutrients. The lion, on the other
+hand, has [a short and smooth digestive tract](http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png),
 more suited to a diet that is prone to [rotting quickly and becoming toxic](https://en.wikipedia.org/wiki/Meat_spoilage).
 It therefore avoids prolonged intestinal exposure to toxic material,
 [which is difficult for humans](/notes/the-digestion-of-meat).

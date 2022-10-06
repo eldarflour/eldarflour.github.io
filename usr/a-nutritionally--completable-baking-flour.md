@@ -58,9 +58,9 @@ to neutralise the acidic taste.
 **Leaves,** *3g dried or 12g fresh,* for the vitamin K. Here dried thyme
 was used, but many dark green [leaves and herbs](/basics) are good candidates;
 lighter green leaves have lower concentrations, such as lettuce, for which
-80 grams is better. These, the nuts, seeds, [fruit](/basics), and some of
+*80 grams* is better. These, the nuts, seeds, [fruit](/basics), and some of
 the wholegrains can also work well on the side, such as in a soup, sauce,
-or smoothie. This can also lead to less [nutrient loss](/notes/nutrient-loss),
+or smoothie. This can lead to less [nutrient loss](/notes/nutrient-loss),
 depending on the methods used, along with more neutral results.
 
 **Olive oil,** *around a tablespoon,* *optional*. Alternatives include
