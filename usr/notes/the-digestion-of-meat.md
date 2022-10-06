@@ -1,12 +1,12 @@
 # The Digestion of Meat
 
-The goal of the stomach and the small intestine is to take what they're
-given and break it down into the individual base components—the sugars, amino
-acids, fatty acids, vitamins, and minerals—which can then be absorbed through
-the intestinal wall. However, some things can leave the small intestine
-undigested, in which case they will move on to the large intestine, or
-the colon, where the resident bacteria will attempt to digest them in
-a process that can be called fermenting, putrefying, or rotting.
+The goal of the stomach and the small intestine is to break down what they're
+given into the individual base components—the sugars, amino acids, fatty acids,
+vitamins, and minerals—which can then be absorbed through the intestinal wall.
+However, some things can leave the small intestine undigested, in which case
+they will move on to the large intestine, or the colon, where the resident
+bacteria will attempt to digest them in a process that can be called
+fermenting, putrefying, or rotting.
 
 When the bacteria of the colon are fed undigested plant matter, i.e. fibre,
 it is [generally considered beneficial](https://en.wikipedia.org/wiki/Dietary_fiber#Short-chain_fatty_acids),
