@@ -50,7 +50,7 @@ ferments food for longer, extracting more nutrients. The lion, on the other
 hand, has [a short and smooth digestive tract](http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png),
 more suited to a diet that is prone to [rotting quickly and becoming toxic](https://en.wikipedia.org/wiki/Meat_spoilage).
 It therefore avoids prolonged intestinal exposure to toxic material,
-[which is difficult for humans](/notes/the-digestion-of-meat).
+[which is more difficult for humans](/notes/the-digestion-of-meat).
 
 ## Other
 
