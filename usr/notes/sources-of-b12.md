@@ -32,25 +32,19 @@ of whether these products can be considered healthy,
 [various](https://en.wikipedia.org/wiki/Poultry_farming_in_the_United_States#Safety_issues)
 [nutrients](https://www.phrases.org.uk/meanings/243100.html).
 
-The land requirement is also steep. For example, if everyone in
-[Britain](/notes/british-land-available) obtained their B~12~ from
-home-raised poultry, while otherwise following [a basic diet](/basics),
+Even when avoiding meat from modern sources, there are associated
+health risks, particularly with [red meat, processed meat, and the
+colon](/notes/the-digestion-of-meat).
+
+Besides that, the land requirement is also steep. For example, if
+everyone in [Britain](/notes/british-land-available) obtained their B~12~
+from home-raised poultry, while otherwise following [a basic diet](/basics),
 then there would be land for around [*45 million people*](/notes/land-for-chicken),
 with even less for [beef, lamb, pork, and cheese](https://ourworldindata.org/grapher/land-use-per-kg-poore).
 With a population of [*65 million people*](https://en.wikipedia.org/wiki/Demography_of_the_United_Kingdom),
 meat and dairy are not viable sources of B~12~ for Britain as a whole, not when
 self-sufficiency is considered and [factory-farms](https://landofhopeandglory.org/)
 are avoided.
-
-Besides that, the fæces of omnivores and carnivores can't be used for
-manure; [it's too toxic](https://www.growveg.co.uk/guides/using-animal-manure-in-the-vegetable-garden/).
-This is especially relevant for humans, as humans inherited their digestive
-tract from their frugivore ancestors; [its long and ridged nature](https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20200709022251961-0188:9781316339916:11859fig6_4.png)
-ferments food for longer, extracting more nutrients. The lion, on the other
-hand, has [a short and smooth digestive tract](http://lion-nutrition.weebly.com/uploads/2/6/9/9/26992359/1430210.png),
-more suited to a diet that is prone to [rotting quickly and becoming toxic](https://en.wikipedia.org/wiki/Meat_spoilage).
-It therefore avoids prolonged intestinal exposure to toxic material,
-[which is more difficult for humans](/notes/the-digestion-of-meat).
 
 ## Other
 
