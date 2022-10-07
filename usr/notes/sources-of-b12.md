@@ -7,7 +7,7 @@ a result, the [rabbit eats its own fæces](https://www.quora.com/Do-animals-abso
 the [second stomach of the cow eats the fæces of the first](https://en.wikipedia.org/wiki/Vitamin_B12#Bacteria_and_archaea),
 and humans, [traditionally](https://en.wikipedia.org/wiki/Night_soil#History)
 grew their crops with [‘night soil’](https://www.growveg.co.uk/guides/using-animal-manure-in-the-vegetable-garden/),
-leading to [normal levels of B~12~ in their blood](https://www.beyondveg.com/billings-t/comp-anat/comp-anat-7d.shtml).
+leading to [normal levels of B~12~ in the blood](https://www.beyondveg.com/billings-t/comp-anat/comp-anat-7d.shtml).
 
 Perhaps for similar reasons, other sources include [**duckweed**](/notes/duckweed);
 **algæ**, including [chlorella](/notes/chlorella) and [coccolithophores](https://pubs.acs.org/doi/10.1021/jf0101556);
@@ -32,26 +32,25 @@ of whether these products can be considered healthy,
 [various](https://en.wikipedia.org/wiki/Poultry_farming_in_the_United_States#Safety_issues)
 [nutrients](https://www.phrases.org.uk/meanings/243100.html).
 
-Even when avoiding meat from modern sources, there are associated
-health risks, particularly with [red meat, processed meat, and the
+Even when avoiding meat from modern sources, there are still associated
+health risks, particularly regarding [red meat, processed meat, and the
 colon](/notes/the-digestion-of-meat).
 
-Besides that, the land requirement is also steep. For example, if
-everyone in [Britain](/notes/british-land-available) obtained their B~12~
-from home-raised poultry, while otherwise following [a basic diet](/basics),
+Besides that, the land requirement is steep. For example, if everyone
+in [Britain](/notes/british-land-available) obtained their B~12~ from
+home-raised poultry, while otherwise following [a basic diet](/basics),
 then there would be land for around [*45 million people*](/notes/land-for-chicken),
 with even less for [beef, lamb, pork, and cheese](https://ourworldindata.org/grapher/land-use-per-kg-poore).
 With a population of [*65 million people*](https://en.wikipedia.org/wiki/Demography_of_the_United_Kingdom),
-meat and dairy are not viable sources of B~12~ for Britain as a whole, not when
-self-sufficiency is considered and [factory-farms](https://landofhopeandglory.org/)
+meat and likely dairy are not viable sources of B~12~ for Britain as a whole,
+not when self-sufficiency is considered and [factory-farms](https://landofhopeandglory.org/)
 are avoided.
 
 ## Other
 
-While algæ and duckweed are widely available, replicate rapidly, and
-have impressive nutritional profiles, they are rarely used in food.
-For this reason, it may be useful to look at them as ways of making
-[natural supplements](/notes/duckweed) instead. For synthetic supplements
-and fortification, note that more than a few micrograms [may be harmful](https://www.theatlantic.com/health/archive/2017/08/b12-energy/537654/).
-
-Or, a lot of seaweed. [Life is suffering.](https://www.bbc.co.uk/religion/religions/buddhism/beliefs/fournobletruths_1.shtml)
+Seaweed is a good source, but a lot is needed. Otherwise, algæ and duckweed
+are widely available, replicate rapidly, and have impressive nutritional profiles.
+However, they are rarely used in food. Instead, it may be useful to look at them
+as ways of making [natural supplements](/notes/natural-b12-supplements).
+For synthetic supplements, note that more than a few micrograms
+[may be harmful](https://www.theatlantic.com/health/archive/2017/08/b12-energy/537654/).

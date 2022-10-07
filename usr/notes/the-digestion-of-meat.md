@@ -16,11 +16,13 @@ they can produce toxins, such as ammonia.
 
 It's [commonly stated](http://www.gnolls.org/1444/does-meat-rot-in-your-colon-no-what-does-beans-grains-and-vegetables/)
 that meat cannot escape the small intestine without being fully broken down
-and absorbed. However, on a standard modern diet [significant quantities of
+and absorbed. However, on a standard modern diet, [significant quantities of
 undigested animal protein have been found entering the colon](https://nutritionfacts.org/2017/04/11/what-animal-protein-does-in-your-colon/),
 and therefore being fermented by the bacteria of the colon, and producing
-carcinogenic toxins as a result.
+carcinogenic toxins as a result. As this diet increases the risk of
+constipation, that fermenting matter can then sit in the colon for
+days or weeks.
 
-While the debate regarding the mechanism will likely continue to develop,
+While the debate regarding the mechanism will likely continue,
 the link between [colon cancer and meat consumption](https://www.bowelcanceruk.org.uk/news-and-blogs/news/new-research-says-even-moderate-red-and-processed-meat-eaters-at-risk-of-bowel-cancer/)
 is generally accepted.

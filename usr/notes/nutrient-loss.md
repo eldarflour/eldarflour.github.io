@@ -1,3 +1,5 @@
+# Nutrient Loss
+
 The main way of losing nutrients due to cooking is through boiling,
 and then throwing away the water. The heat causes many nutrients to
 leach into the water, at which point they will be lost if the water

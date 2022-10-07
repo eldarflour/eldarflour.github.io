@@ -6,4 +6,4 @@ exposed to the air.
 Public Health England [recommends *1.5μg* of vitamin B~12~ per day](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/618167/government_dietary_recommendations.pdf),
 or the amount that would then be in *8g* of fresh duckweed. As dried duckweed
 should be around *10%* the weight of fresh, and B~12~ [seems resilient to drying](https://www.ars.usda.gov/ARSUserFiles/80400525/Data/retn/retn06.pdf),
-a gram of dried duckweed would then contain enough B~12~, or around two tablets.
+a gram of dried duckweed would then contain enough.
