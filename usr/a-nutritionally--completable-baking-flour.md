@@ -55,13 +55,13 @@ wholegrains, or [whole foods in general](https://web.archive.org/web/20210126120
 Otherwise, it's worth mixing with half a gram of baking soda and water
 to neutralise the acidic taste.
 
-**Leaves,** *3g dried or 12g fresh,* for the vitamin K. Here dried thyme
+**Leaves,** *3g dried* or *12g fresh*, for the vitamin K. Here dried thyme
 was used, but many dark green [leaves and herbs](/basics) are good candidates;
 lighter green leaves have lower concentrations, such as lettuce, for which
 *80 grams* is better. These, the nuts, seeds, [fruit](/basics), and some of
 the wholegrains can also work well on the side, such as in a soup, sauce,
-or smoothie. This can lead to less [nutrient loss](/notes/nutrient-loss),
-depending on the methods used, along with more neutral results.
+or smoothie. Depending on the method, this can lead to less [nutrient loss](/notes/nutrient-loss),
+and more neutral results.
 
 **Olive oil,** *around a tablespoon,* *optional*. Alternatives include
 coconut, avocado, hazelnut, and [high-oleic sunflower oil](https://www.youtube.com/watch?v=7kGnfXXIKZM).

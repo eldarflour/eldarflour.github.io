@@ -353,7 +353,7 @@ body {
     right: 0;
   }
   .nutrition > ul > li > ul > li > em {
-    transition: all 0.1s;
+    transition: opacity 0.1s;
   }
   .nutrition > ul > li > ul > li > em:first-of-type {
     opacity: 1;
@@ -465,18 +465,21 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+pre {
   margin-top: 0;
   font-weight: normal;
 }
 p,
 ul,
-ol {
+ol,
+pre {
   margin-bottom: 1rem;
 }
 p:last-child,
 ul:last-child,
-ol:last-child {
+ol:last-child,
+pre:last-child {
   margin-bottom: 0;
 }
 li,
@@ -517,6 +520,11 @@ h1 {
   font-size: 1.80203247rem;
   line-height: 1.98223572rem;
   margin-bottom: calc(1.98223572rem / 1.618);
+}
+pre {
+  font-size: 0.79012346rem;
+  line-height: 0.8691358rem;
+  margin-bottom: 1.1rem;
 }
 .line-block {
   white-space: nowrap;
@@ -802,9 +810,10 @@ body > .index > .subtitle {
   body.highlighting h6,
   body.highlighting li,
   body.highlighting em,
+  body.highlighting pre,
   body.highlighting .line-block {
     color: #222222;
-    transition: all 0.61804697s;
+    transition: color 0.61804697s, opacity 0.61804697s;
   }
   body.highlighting a {
     text-decoration: none;
@@ -824,6 +833,7 @@ body > .index > .subtitle {
   body.highlighting.highlighting-active h6,
   body.highlighting.highlighting-active li,
   body.highlighting.highlighting-active em,
+  body.highlighting.highlighting-active pre,
   body.highlighting.highlighting-active .line-block {
     color: rgba(34, 34, 34, 0.38195303);
   }
@@ -1155,6 +1165,7 @@ body > .index > .subtitle {
 </ul>
 </div>
 <div class='page' data-path='/notes/land-for-chicken' data-title='land for chicken'>
+<h1 id="land-for-chicken">Land for Chicken</h1>
 <p>Chickens eat <a href="https://en.wikipedia.org/wiki/Poultry_feed">the same basic diet</a> as humans, i.e. <a href="https://web.archive.org/web/20150325103301/http://www.chicken.org.au/page.php?id=6#Feed">mostly grains and legumes</a> with sources of vitamins and minerals, while otherwise foraging for the rest. High-tech nutritionally-complete chicken feeds are important for factory-farmed chickens as they can’t forage. Traditionally, however, chicken feed was more supplementary, consisting of grain, scraps, and calcium.</p>
 <p>Chickens tend to eat around <a href="https://www.aces.edu/blog/topics/farming/nutrition-for-backyard-chicken-flocks/">an eighth</a> of <a href="/basics">what a human eats</a>, or around <a href="https://www.smallholderfeed.co.uk/wp-content/uploads/2017/09/Feeding-Hens-Factsheet.pdf"><em>125g</em></a> of feed per day. As chicken feed <a href="https://web.archive.org/web/20150325103301/http://www.chicken.org.au/page.php?id=6#Feed">is basically grain</a>, this would require around <a href="/notes/land-for-cereals"><em>170m<sup>2</sup></em></a> to produce organically, or one twenty-fourth of an acre.</p>
 <p>With an average weight of <a href="https://pethelpful.com/farm-pets/the-top-10-dual-purpose-chicken-breeds">3kg</a>, and an average meat yield of <a href="https://yourmeatguide.com/whole-chicken-portions-meat-yield/">65%</a>, each bird will then produce around <em>2kg</em> of meat and <a href="https://fdc.nal.usda.gov/fdc-app.html#/food-details/171060/measures"><em>44g</em></a> of liver. Assuming a ‘harvest’ every <a href="https://www.researchgate.net/publication/311553349_Are_carcass_and_meat_quality_of_male_dual-purpose_chickens_competitive_compared_to_slow-growing_broilers_reared_under_a_welfare-enhanced_organic_system">12 weeks</a>, each twenty-fourth will therefore produce around <em>8.6kg</em> of meat per year and <em>190g</em> of liver.</p>

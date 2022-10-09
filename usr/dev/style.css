@@ -46,9 +46,10 @@ body.highlighting {
 		h6,
 		li,
 		em,
+		pre,
 		.line-block {
 			color: @foreground-colour;
-			transition: all @highlighting-speed;
+			transition: color @highlighting-speed, opacity @highlighting-speed;
 		}
 
 		a {
@@ -72,6 +73,7 @@ body.highlighting {
 			h6,
 			li,
 			em,
+			pre,
 			.line-block {
 				color: fade(@foreground-colour, (100% - (100% / @ratio)));
 			}

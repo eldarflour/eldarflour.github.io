@@ -353,7 +353,7 @@ body {
     right: 0;
   }
   .nutrition > ul > li > ul > li > em {
-    transition: all 0.1s;
+    transition: opacity 0.1s;
   }
   .nutrition > ul > li > ul > li > em:first-of-type {
     opacity: 1;
@@ -465,18 +465,21 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+pre {
   margin-top: 0;
   font-weight: normal;
 }
 p,
 ul,
-ol {
+ol,
+pre {
   margin-bottom: 1rem;
 }
 p:last-child,
 ul:last-child,
-ol:last-child {
+ol:last-child,
+pre:last-child {
   margin-bottom: 0;
 }
 li,
@@ -517,6 +520,11 @@ h1 {
   font-size: 1.80203247rem;
   line-height: 1.98223572rem;
   margin-bottom: calc(1.98223572rem / 1.618);
+}
+pre {
+  font-size: 0.79012346rem;
+  line-height: 0.8691358rem;
+  margin-bottom: 1.1rem;
 }
 .line-block {
   white-space: nowrap;
@@ -802,9 +810,10 @@ body > .index > .subtitle {
   body.highlighting h6,
   body.highlighting li,
   body.highlighting em,
+  body.highlighting pre,
   body.highlighting .line-block {
     color: #222222;
-    transition: all 0.61804697s;
+    transition: color 0.61804697s, opacity 0.61804697s;
   }
   body.highlighting a {
     text-decoration: none;
@@ -824,6 +833,7 @@ body > .index > .subtitle {
   body.highlighting.highlighting-active h6,
   body.highlighting.highlighting-active li,
   body.highlighting.highlighting-active em,
+  body.highlighting.highlighting-active pre,
   body.highlighting.highlighting-active .line-block {
     color: rgba(34, 34, 34, 0.38195303);
   }
@@ -1158,8 +1168,8 @@ body > .index > .subtitle {
 <h1 id="the-digestion-of-meat">The Digestion of Meat</h1>
 <p>The goal of the stomach and the small intestine is to break down what they’re given into the individual base components—the sugars, amino acids, fatty acids, vitamins, and minerals—which can then be absorbed through the intestinal wall. However, some things can leave the small intestine undigested, in which case they will move on to the large intestine, or the colon, where the resident bacteria will attempt to digest them in a process that can be called fermenting, putrefying, or rotting.</p>
 <p>When the bacteria of the colon are fed undigested plant matter, i.e. fibre, it is <a href="https://en.wikipedia.org/wiki/Dietary_fiber#Short-chain_fatty_acids">generally considered beneficial</a>, as they can break down what the stomach could not and then more can be absorbed. However, when they are fed <a href="https://nutritionfacts.org/2017/04/11/what-animal-protein-does-in-your-colon/">undigested animal protein</a>, they can produce toxins, such as ammonia.</p>
-<p>It’s <a href="http://www.gnolls.org/1444/does-meat-rot-in-your-colon-no-what-does-beans-grains-and-vegetables/">commonly stated</a> that meat cannot escape the small intestine without being fully broken down and absorbed. However, on a standard modern diet, <a href="https://nutritionfacts.org/2017/04/11/what-animal-protein-does-in-your-colon/">significant quantities of undigested animal protein have been found entering the colon</a>, and therefore being fermented by the bacteria of the colon, and producing carcinogenic toxins as a result. As this diet increases the risk of constipation, that fermenting matter can then sit in the colon for days or weeks.</p>
-<p>While the debate regarding the mechanism will likely continue, the link between <a href="https://www.bowelcanceruk.org.uk/news-and-blogs/news/new-research-says-even-moderate-red-and-processed-meat-eaters-at-risk-of-bowel-cancer/">colon cancer and meat consumption</a> is generally accepted.</p>
+<p>It’s <a href="http://www.gnolls.org/1444/does-meat-rot-in-your-colon-no-what-does-beans-grains-and-vegetables/">commonly stated</a> that meat cannot escape the small intestine without being fully broken down and absorbed. However, on a standard modern diet, <a href="https://nutritionfacts.org/2017/04/11/what-animal-protein-does-in-your-colon/">significant quantities of undigested animal protein have been found entering the colon</a>, and therefore being fermented by the bacteria of the colon, and producing carcinogenic toxins as a result. As this diet increases the risk of constipation, that fermenting matter will then sit in the colon for days or weeks.</p>
+<p>While the debate regarding the mechanism will likely continue, it is generally recognised that there is <a href="https://www.bowelcanceruk.org.uk/news-and-blogs/news/new-research-says-even-moderate-red-and-processed-meat-eaters-at-risk-of-bowel-cancer/">a significant link</a> between colon cancer and the consumption of red and processed meat.</p>
 </div>
 	</body>
 </html>

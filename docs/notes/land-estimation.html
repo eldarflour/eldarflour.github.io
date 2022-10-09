@@ -3,7 +3,7 @@
 	<head>
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<title>nutrient loss</title>
+		<title>land estimation</title>
 		<style class='main'>
 /* src/main.post.css */
 *,
@@ -1150,7 +1150,7 @@ body > .index > .subtitle {
 	</head>
 	<body>
 <div class='index' data-indexed='0'>
-	<span class='subtitle'>nutrient loss</span>
+	<span class='subtitle'>land estimation</span>
 <div class="either">
 <div class="print">
 <p><em>eldar<strong>flour</strong>.org</em></p>
@@ -1164,10 +1164,25 @@ body > .index > .subtitle {
 <li><a href="/">flour</a></li>
 </ul>
 </div>
-<div class='page' data-path='/notes/nutrient-loss' data-title='nutrient loss'>
-<h1 id="nutrient-loss">Nutrient Loss</h1>
-<p>The main way of losing nutrients due to cooking is through boiling, and then throwing away the water. The heat causes many nutrients to leach into the water, at which point they will be lost if the water is not used. Other methods <a href="https://www.ars.usda.gov/ARSUserFiles/80400525/Data/retn/retn06.pdf">are usually not as damaging</a>, although less heat for less time is better.</p>
-<p>In general, foods should be stored away from heat, light, air, and humidity, and used as soon as possible.</p>
+<div class='page' data-path='/notes/land-estimation' data-title='land estimation'>
+<h1 id="estimating-land-requirements">Estimating Land Requirements</h1>
+<pre><code>(r, y, s=0, h=1) =&gt; ((r*365)/(y*h)) + (s ? ((r*365)/(y/s)/y) : 0)</code></pre>
+<h2 id="input">Input</h2>
+<ul>
+<li><p>The <strong>daily requirement</strong> in grams per day. This should be in a form for long-term storage.</p></li>
+<li><p>The <strong>organic yield</strong> in grams per square metre. If no organic yield statistics are available, then a chemical yield statistic can be used and <a href="https://www.sciencedirect.com/science/article/pii/S0308521X1100182X">reduced by 20%</a>.</p></li>
+<li><p>The <strong>seed rate</strong>, or the amount to be planted, in grams per square metre. If this doesn’t apply, then it should be <em>0</em>.</p></li>
+<li><p>The <strong>hulled fraction</strong>, or the amount left after removing the hulls. This should be a unit interval, i.e. if <em>40%</em> is lost, and <em>60%</em> remains, then this should be <em>0.6</em>. If dehulling doesn’t apply, then this should be <em>1</em>.</p></li>
+</ul>
+<h2 id="method">Method</h2>
+<ul>
+<li><p>The <em>yearly requirement</em> is the <em>daily requirement</em> multiplied by <em>365</em>.</p></li>
+<li><p>The <em>hulled yield</em> is the <em>organic yield</em> reduced to the <em>hulled fraction</em>.</p></li>
+<li><p>The <em>dietary land requirement</em> is the <em>yearly requirement</em> divided by the <em>hulled yield</em>.</p></li>
+<li><p>The <em>harvest ratio</em> is the <em>organic yield</em> divided by the <em>seed rate</em>.</p></li>
+<li><p>The <em>seed land requirement</em> is the <em>yearly requirement</em> divided by the <em>harvest ratio</em>, divided by the <em>organic yield</em>, or <em>0</em> if no <em>seed rate</em> is given.</p></li>
+<li><p>The <em>result</em> is the <em>dietary land requirement</em> plus the <em>seed land requirement</em>.</p></li>
+</ul>
 </div>
 	</body>
 </html>

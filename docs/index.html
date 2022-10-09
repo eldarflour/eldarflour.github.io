@@ -353,7 +353,7 @@ body {
     right: 0;
   }
   .nutrition > ul > li > ul > li > em {
-    transition: all 0.1s;
+    transition: opacity 0.1s;
   }
   .nutrition > ul > li > ul > li > em:first-of-type {
     opacity: 1;
@@ -465,18 +465,21 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+pre {
   margin-top: 0;
   font-weight: normal;
 }
 p,
 ul,
-ol {
+ol,
+pre {
   margin-bottom: 1rem;
 }
 p:last-child,
 ul:last-child,
-ol:last-child {
+ol:last-child,
+pre:last-child {
   margin-bottom: 0;
 }
 li,
@@ -517,6 +520,11 @@ h1 {
   font-size: 1.80203247rem;
   line-height: 1.98223572rem;
   margin-bottom: calc(1.98223572rem / 1.618);
+}
+pre {
+  font-size: 0.79012346rem;
+  line-height: 0.8691358rem;
+  margin-bottom: 1.1rem;
 }
 .line-block {
   white-space: nowrap;
@@ -802,9 +810,10 @@ body > .index > .subtitle {
   body.highlighting h6,
   body.highlighting li,
   body.highlighting em,
+  body.highlighting pre,
   body.highlighting .line-block {
     color: #222222;
-    transition: all 0.61804697s;
+    transition: color 0.61804697s, opacity 0.61804697s;
   }
   body.highlighting a {
     text-decoration: none;
@@ -824,6 +833,7 @@ body > .index > .subtitle {
   body.highlighting.highlighting-active h6,
   body.highlighting.highlighting-active li,
   body.highlighting.highlighting-active em,
+  body.highlighting.highlighting-active pre,
   body.highlighting.highlighting-active .line-block {
     color: rgba(34, 34, 34, 0.38195303);
   }
@@ -1181,7 +1191,7 @@ bread, pizza, pasta, smoothies<br />
 <p><strong>Chalk,</strong> <em>1g,</em> aka calcium carbonate. An alternative is tofu set with gypsum, aka calcium sulphate.</p>
 <p><strong>Salt,</strong> <em>around 10g,</em> for the sodium. Preferably a low-sodium salt for the increased potassium; they are usually half sodium chloride and half potassium chloride. For a self-raising flour, instead add around 10g of cream of tartar, aka potassium bitartrate, half that of baking soda, and a few grams of standard salt.</p>
 <p><strong>Choline bitartrate,</strong> <em>1g,</em> for the choline, i.e. the B<sub>4</sub>. This is less relevant for those who have replaced all of the white flour with wholegrains, or <a href="https://web.archive.org/web/20210126120914id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=50#foodsources">whole foods in general</a>. Otherwise, it’s worth mixing with half a gram of baking soda and water to neutralise the acidic taste.</p>
-<p><strong>Leaves,</strong> <em>3g dried or 12g fresh,</em> for the vitamin K. Here dried thyme was used, but many dark green <a href="/basics">leaves and herbs</a> are good candidates; lighter green leaves have lower concentrations, such as lettuce, for which <em>80 grams</em> is better. These, the nuts, seeds, <a href="/basics">fruit</a>, and some of the wholegrains can also work well on the side, such as in a soup, sauce, or smoothie. This can lead to less <a href="/notes/nutrient-loss">nutrient loss</a>, depending on the methods used, along with more neutral results.</p>
+<p><strong>Leaves,</strong> <em>3g dried</em> or <em>12g fresh</em>, for the vitamin K. Here dried thyme was used, but many dark green <a href="/basics">leaves and herbs</a> are good candidates; lighter green leaves have lower concentrations, such as lettuce, for which <em>80 grams</em> is better. These, the nuts, seeds, <a href="/basics">fruit</a>, and some of the wholegrains can also work well on the side, such as in a soup, sauce, or smoothie. Depending on the method, this can lead to less <a href="/notes/nutrient-loss">nutrient loss</a>, and more neutral results.</p>
 <p><strong>Olive oil,</strong> <em>around a tablespoon,</em> <em>optional</em>. Alternatives include coconut, avocado, hazelnut, and <a href="https://www.youtube.com/watch?v=7kGnfXXIKZM">high-oleic sunflower oil</a>.</p>
 <p><strong>Water,</strong> <em>around 300ml,</em> <a href="https://en.wikipedia.org/wiki/Baker_percentage#Dough_hydration">varies</a> depending on the method, ingredients, climate, etc. Add less at first, and more if needed.</p>
 <p>The result is a simple, <a href="#nutrition">healthy</a>, adaptable <a href="https://www.manjulaskitchen.com/roti-chapati-flat-indian-bread/">baking</a> flour. It’s best paired with sources of <a href="https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=92">protein</a>, such as <a href="/basics">lentils, beans, peas, chickpeas, avocados, and tofu</a>.</p>

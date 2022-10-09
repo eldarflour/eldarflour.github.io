@@ -16,14 +16,14 @@
 
 ::: row
 :::: {#ingredients .ingredients .column}
-**Cereals,** *450g*, [*560m^2^*](/notes/land-for-cereals), contain most of
+**Cereals,** *450g*, [*550m^2^*](/notes/land-for-cereals), contain most of
 a diet's nutrition, including the [fibre](https://web.archive.org/web/20210124021241id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=59),
 [minerals](https://web.archive.org/web/20210121094444id_/http://whfoods.com/nutrientstoc.php),
 [B vitamins](https://web.archive.org/web/20210121094444id_/http://whfoods.com/nutrientstoc.php),
 [protein](https://web.archive.org/web/20210304164944id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=92),
 and energy. Sources include [**wholegrain wheat**](https://web.archive.org/web/20201101053151id_/http://www.whfoods.com/genpage.php?tname=foodspice&dbid=66#healthbenefits),
-***barley***, ***oats***, ***rye***, ***rice***, ***buckwheat***, *maize*,
-and *potatoes*.
+***barley***, ***oats***, ***rye***, ***rice***, ***buckwheat***, or one or two
+kilos of *maize* or *potatoes*.
 
 **Pulses,** *150g*, [*220m^2^*](/notes/land-for-pulses), are for the
 [choline](https://web.archive.org/web/20210126120914id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=50).
@@ -43,11 +43,12 @@ are for the [omega−3](https://web.archive.org/web/20210125052152id_/http://www
 while the fibres can be used for clothes. Sources include ***flax*** and ***hemp***,
 along with ***chia*** and ***walnuts*** when fibres are not needed.
 
-**Leaves,** *30g fresh or 3g dried,* [*10m^2^*](/notes/land-for-leaves),
+**Leaves,** *30g fresh* or *3g dried*, [*10m^2^*](/notes/land-for-leaves),
 are for the [vitamin K](https://web.archive.org/web/20210126044628id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=112).
 Many dark green leaves are good candidates, such as ***kale***, ***spinach***,
-***chard***, ***cress***, ***coriander***, ***basil***, and ***parsley***. For
-lighter leaves, such as ***lettuce***, the amount should be doubled or tripled.
+***chard***, ***cress***, ***coriander***, ***basil***, and ***parsley***.
+The amount should be doubled or tripled for lighter leaves,
+such as ***lettuce***.
 
 **Fruits,** *60g,* [*80m^2^*](/notes/land-for-fruits),
 [*sensitive to age and heat*](/notes/fruit-sensitivity),
@@ -56,7 +57,7 @@ Sources include ***strawberries***, ***blackcurrants***, ***rosehips***,
 ***citrus fruits***, ***bell peppers***, ***broccoli***, two or three
 ***tomatoes***, or double the ***leaves***.
 
-**Vegetables,** *120g fresh or 20g dried,* [*30m^2^*](/notes/land-for-vegetables),
+**Vegetables,** *120g fresh* or *20g dried,* [*40m^2^*](/notes/land-for-vegetables),
 for the [vitamin A](https://web.archive.org/web/20210126050657id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=106).
 Sources include ***sweet potatoes***, ***carrots***, ***pumpkins***,
 and more ***leaves***.
@@ -76,13 +77,12 @@ for the [vitamin D](https://web.archive.org/web/20210126034122id_/http://www.whf
 An alternative is a ***mushroom***, preferably shiitake for the [vitamin B~5~](https://web.archive.org/web/20210211074336id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=87),
 [cured for two days with gills facing the summer Sun](http://fungi.com/blogs/articles/place-mushrooms-in-sunlight-to-get-your-vitamin-d).
 
-**Soil,** [particularly manure](/notes/sources-of-b12),
-is unfortunately the preferred habitat of the bacteria that produce [vitamin B~12~](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107).
-[Traditionally](https://en.wikipedia.org/wiki/Night_soil#History), large amounts
-likely came through [contamination](/notes/sources-of-b12). Otherwise, sources
-include *a sheet of dried [**nori**](https://pubs.acs.org/doi/10.1021/jf981065c)*,
-aka ***laver***, *a ¼ cup of [**dulse**](https://veganhealth.org/vitamin-b12/vitamin-b12-plant-foods/#various)*,
-or [a supplement](/notes/sources-of-b12). Note, the plants above will also want
+**Soil,** [particularly manure](/notes/sources-of-b12), is unfortunately
+the preferred habitat of the bacteria that produce [vitamin B~12~](https://web.archive.org/web/20201220012701id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=107).
+Sources include [*night soil*](/notes/sources-of-b12),
+[*a sheet of dried **nori***](https://pubs.acs.org/doi/10.1021/jf981065c),
+aka ***laver***, [*a ¼ cup of **dulse***](https://veganhealth.org/vitamin-b12/vitamin-b12-plant-foods/#various),
+or [a supplement](/notes/sources-of-b12). The plants will also want
 [good soil](https://youtu.be/PrrbQe1BFxk?t=100).
 
 **Land,** *a third of an acre* includes space for paths and storage, such

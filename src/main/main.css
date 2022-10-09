@@ -105,14 +105,16 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+pre {
 	margin-top: 0;
 	font-weight: normal;
 }
 
 p,
 ul,
-ol {
+ol,
+pre {
 	margin-bottom: @font-size;
 
 	&:last-child {
@@ -164,6 +166,12 @@ h1 {
 	font-size: @font-size-5;
 	line-height: @line-height-5;
 	margin-bottom: calc(@line-height-5 / @ratio);
+}
+
+pre {
+	font-size: @font-size--2;
+	line-height: @line-height--2;
+	margin-bottom: @line-height;
 }
 
 .line-block {

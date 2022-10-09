@@ -1,6 +1,10 @@
 ## Duckweed
-The average yield is [*7200g of dry matter/m^2^*](https://juniperpublishers.com/ijesnr/IJESNR.MS.ID.555942.php).
-As organic tends to yield [*80%*](https://www.sciencedirect.com/science/article/pii/S0308521X1100182X)
-that of chemical methods, the average organic yield is then assumed to be
-*5760g of dry matter/m^2^,* or *23,310kg of dry matter/acre*. For *1g* a day,
-one needs *(1×365) ÷ 5760*, or **one square foot**.
+
+- The *daily requirement* is [*8g fresh* or *1g dried*](/notes/duckweed-b12).
+
+- The *chemical yield* is [*7200g of dry matter/m^2^*](https://juniperpublishers.com/ijesnr/IJESNR.MS.ID.555942.php).
+
+- The *organic yield* is [*5760g/m^2^*](/notes/land-estimation).
+
+- The *land requirement* is [**0.06m^2^**](/notes/land-estimation),
+  or around *one square foot*.

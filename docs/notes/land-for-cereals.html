@@ -353,7 +353,7 @@ body {
     right: 0;
   }
   .nutrition > ul > li > ul > li > em {
-    transition: all 0.1s;
+    transition: opacity 0.1s;
   }
   .nutrition > ul > li > ul > li > em:first-of-type {
     opacity: 1;
@@ -465,18 +465,21 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+pre {
   margin-top: 0;
   font-weight: normal;
 }
 p,
 ul,
-ol {
+ol,
+pre {
   margin-bottom: 1rem;
 }
 p:last-child,
 ul:last-child,
-ol:last-child {
+ol:last-child,
+pre:last-child {
   margin-bottom: 0;
 }
 li,
@@ -517,6 +520,11 @@ h1 {
   font-size: 1.80203247rem;
   line-height: 1.98223572rem;
   margin-bottom: calc(1.98223572rem / 1.618);
+}
+pre {
+  font-size: 0.79012346rem;
+  line-height: 0.8691358rem;
+  margin-bottom: 1.1rem;
 }
 .line-block {
   white-space: nowrap;
@@ -802,9 +810,10 @@ body > .index > .subtitle {
   body.highlighting h6,
   body.highlighting li,
   body.highlighting em,
+  body.highlighting pre,
   body.highlighting .line-block {
     color: #222222;
-    transition: all 0.61804697s;
+    transition: color 0.61804697s, opacity 0.61804697s;
   }
   body.highlighting a {
     text-decoration: none;
@@ -824,6 +833,7 @@ body > .index > .subtitle {
   body.highlighting.highlighting-active h6,
   body.highlighting.highlighting-active li,
   body.highlighting.highlighting-active em,
+  body.highlighting.highlighting-active pre,
   body.highlighting.highlighting-active .line-block {
     color: rgba(34, 34, 34, 0.38195303);
   }
@@ -1156,11 +1166,28 @@ body > .index > .subtitle {
 </div>
 <div class='page' data-path='/notes/land-for-cereals' data-title='land for cereals'>
 <h2 id="wheat">Wheat</h2>
-<p>The seeding rate is <a href="https://www.cotswoldseeds.com/species/105/wheat"><em>75kg/acre</em></a>, and the organic yield is around <a href="https://academic.oup.com/bioscience/article/55/10/820/274240"><em>330g/m<sup>2</sup></em></a>, or <em>1335kg/acre</em>, or 18 times the amount planted. For <em>475g</em> a day, one needs <em>((475×365)÷330) + (((475×365)÷18)÷330)</em>, or <strong>555m<sup>2</sup></strong>.</p>
+<ul>
+<li><p>The <em>daily requirement</em> is <em>475g</em>.</p></li>
+<li><p>The <em>organic yield</em> is <a href="https://academic.oup.com/bioscience/article/55/10/820/274240"><em>330g/m<sup>2</sup></em></a>.</p></li>
+<li><p>The <em>seeding rate</em> is <a href="https://www.cotswoldseeds.com/species/105/wheat"><em>75kg/acre</em></a>, or <em>18.5g/m<sup>2</sup></em>.</p></li>
+<li><p>The <em>land requirement</em> is <a href="/notes/land-estimation"><strong>555m<sup>2</sup></strong></a>.</p></li>
+</ul>
 <h2 id="oats">Oats</h2>
-<p>The seeding rate is <a href="https://www.cotswoldseeds.com/species/106/oats"><em>70kg/acre</em></a>. The average yield for standard oats was <em>545g/m<sup>2</sup></em> across <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/868943/structure-jun2019prov-UK-28feb20.pdf">2019</a> and <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/946161/structure-jun2020final-uk-22dec20.pdf">2020</a>. As the <a href="https://en.wikipedia.org/wiki/Avena_nuda">naked varieties</a> have a <a href="https://www.premiumcrops.com/spring-naked-oats.html">25%</a> lower yield than the husked varieties, and organic tends to yield <a href="https://www.sciencedirect.com/science/article/pii/S0308521X1100182X"><em>80%</em></a> that of chemical methods, the organic yield for naked oats is assumed to be around <em>327g/m<sup>2</sup></em>, or <em>1323kg/acre</em>, or 19 times the amount planted. For <em>400g</em> a day, one needs <em>((400×365)÷327) + (((400×365)÷19)÷327)</em>, or <strong>470m<sup>2</sup></strong>.</p>
+<ul>
+<li><p>The <em>daily requirement</em> is <em>400g</em>.</p></li>
+<li><p>The <em>chemical yield</em> was <em>545g/m<sup>2</sup></em> across <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/868943/structure-jun2019prov-UK-28feb20.pdf">2019</a> and <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/946161/structure-jun2020final-uk-22dec20.pdf">2020</a>.</p></li>
+<li><p>The <a href="https://en.wikipedia.org/wiki/Avena_nuda">huskless varieties</a> have a <a href="https://www.premiumcrops.com/spring-naked-oats.html">25%</a> lower yield than husked ones, or <em>409g/m<sup>2</sup></em>.</p></li>
+<li><p>The <em>organic yield</em> is <a href="/notes/land-estimation"><em>327g/m<sup>2</sup></em></a>.</p></li>
+<li><p>The <em>seeding rate</em> is <a href="https://www.cotswoldseeds.com/species/106/oats"><em>70kg/acre</em></a>, or <em>17.3g/m<sup>2</sup></em>.</p></li>
+<li><p>The <em>land requirement</em> is <a href="/notes/land-estimation"><strong>470m<sup>2</sup></strong></a>.</p></li>
+</ul>
 <h2 id="potatoes">Potatoes</h2>
-<p>The organic yield is around <a href="https://www.organicresearchcentre.com/manage/authincludes/article_uploads/Potato_guide_ORC_Download.pdf"><em>1500g/m<sup>2</sup></em></a>. For <em>2kg</em> a day, one needs <em>((2000×365)÷1500)</em>, or <strong>487m<sup>2</sup></strong>.</p>
+<ul>
+<li><p>The <em>daily requirement</em> is <em>2kg</em>.</p></li>
+<li><p>The <em>organic yield</em> is <a href="https://www.organicresearchcentre.com/manage/authincludes/article_uploads/Potato_guide_ORC_Download.pdf"><em>1500g/m<sup>2</sup></em></a>.</p></li>
+<li><p>The <em>seeding rate</em> is <a href="https://wikifarmer.com/potato-planting-seeding-rate-and-plant-spacing/"><em>2t/ha</em></a>, or <em>200g/m<sup>2</sup></em>.</p></li>
+<li><p>The <em>land requirement</em> is <a href="/notes/land-estimation"><strong>552m<sup>2</sup></strong></a>.</p></li>
+</ul>
 </div>
 	</body>
 </html>

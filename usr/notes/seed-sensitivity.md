@@ -1,6 +1,8 @@
+# Seed Sensitivity
+
 [Omega−3](https://web.archive.org/web/20210125052152id_/http://www.whfoods.com/genpage.php?tname=nutrient&dbid=84#impactcookingstorageprocessing)
 is a sensitive nutrient, susceptible to damage from light and air. Seeds that
-are being used as a source of Omega−3 should therefore be kept whole until needed,
+are being used as a source of Omega−3 should ideally be kept whole until needed,
 or otherwise kept in a dark, sealed container, preferably in a refrigerator,
 and used within a month.
 

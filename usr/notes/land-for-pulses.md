@@ -1,6 +1,14 @@
 ## Soybeans
-The average yield is [*250g/m^2^*](https://www.fwi.co.uk/arable/harvest/harvest-2016-growers-enjoy-soya-success-crop-yields-impress).
-As organic tends to [yield *80%* that of chemical methods](https://www.sciencedirect.com/science/article/pii/S0308521X1100182X),
-the average organic yield is assumed to be *200g/m^2^*. For *125g* a day,
-one needs *(125×365) ÷ 200*, or **228m^2^**. Note, this is for Britain,
-which is not the best climate for soy.
+
+- The *daily requirement* is *125g*.
+
+- The *chemical yield* is [*250g/m^2^*](https://www.fwi.co.uk/arable/harvest/harvest-2016-growers-enjoy-soya-success-crop-yields-impress).
+  Note that this is for Britain, which is not a good climate for soy.
+
+- The *organic yield* is [*200g/m^2^*](/notes/land-estimation).
+
+- The *seeding rate* is [*120,000 seeds per acre*](https://cropwatch.unl.edu/2019/soybean-seeding-rates).
+  As each soybean weighs around [*0.15g*](https://www.feedipedia.org/node/42),
+  that would be around *18kg/acre*, or *5g/m^2^*.
+
+- The *land requirement* is [**234m^2^**](/notes/land-estimation).

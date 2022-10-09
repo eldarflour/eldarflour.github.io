@@ -1,0 +1,20 @@
+<div class='page' data-path='/notes/land-estimation' data-title='land estimation'>
+<h1 id="estimating-land-requirements">Estimating Land Requirements</h1>
+<pre><code>(r, y, s=0, h=1) =&gt; ((r*365)/(y*h)) + (s ? ((r*365)/(y/s)/y) : 0)</code></pre>
+<h2 id="input">Input</h2>
+<ul>
+<li><p>The <strong>daily requirement</strong> in grams per day. This should be in a form for long-term storage.</p></li>
+<li><p>The <strong>organic yield</strong> in grams per square metre. If no organic yield statistics are available, then a chemical yield statistic can be used and <a href="https://www.sciencedirect.com/science/article/pii/S0308521X1100182X">reduced by 20%</a>.</p></li>
+<li><p>The <strong>seed rate</strong>, or the amount to be planted, in grams per square metre. If this doesn’t apply, then it should be <em>0</em>.</p></li>
+<li><p>The <strong>hulled fraction</strong>, or the amount left after removing the hulls. This should be a unit interval, i.e. if <em>40%</em> is lost, and <em>60%</em> remains, then this should be <em>0.6</em>. If dehulling doesn’t apply, then this should be <em>1</em>.</p></li>
+</ul>
+<h2 id="method">Method</h2>
+<ul>
+<li><p>The <em>yearly requirement</em> is the <em>daily requirement</em> multiplied by <em>365</em>.</p></li>
+<li><p>The <em>hulled yield</em> is the <em>organic yield</em> reduced to the <em>hulled fraction</em>.</p></li>
+<li><p>The <em>dietary land requirement</em> is the <em>yearly requirement</em> divided by the <em>hulled yield</em>.</p></li>
+<li><p>The <em>harvest ratio</em> is the <em>organic yield</em> divided by the <em>seed rate</em>.</p></li>
+<li><p>The <em>seed land requirement</em> is the <em>yearly requirement</em> divided by the <em>harvest ratio</em>, divided by the <em>organic yield</em>, or <em>0</em> if no <em>seed rate</em> is given.</p></li>
+<li><p>The <em>result</em> is the <em>dietary land requirement</em> plus the <em>seed land requirement</em>.</p></li>
+</ul>
+</div>

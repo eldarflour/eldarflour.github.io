@@ -353,7 +353,7 @@ body {
     right: 0;
   }
   .nutrition > ul > li > ul > li > em {
-    transition: all 0.1s;
+    transition: opacity 0.1s;
   }
   .nutrition > ul > li > ul > li > em:first-of-type {
     opacity: 1;
@@ -465,18 +465,21 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+pre {
   margin-top: 0;
   font-weight: normal;
 }
 p,
 ul,
-ol {
+ol,
+pre {
   margin-bottom: 1rem;
 }
 p:last-child,
 ul:last-child,
-ol:last-child {
+ol:last-child,
+pre:last-child {
   margin-bottom: 0;
 }
 li,
@@ -517,6 +520,11 @@ h1 {
   font-size: 1.80203247rem;
   line-height: 1.98223572rem;
   margin-bottom: calc(1.98223572rem / 1.618);
+}
+pre {
+  font-size: 0.79012346rem;
+  line-height: 0.8691358rem;
+  margin-bottom: 1.1rem;
 }
 .line-block {
   white-space: nowrap;
@@ -802,9 +810,10 @@ body > .index > .subtitle {
   body.highlighting h6,
   body.highlighting li,
   body.highlighting em,
+  body.highlighting pre,
   body.highlighting .line-block {
     color: #222222;
-    transition: all 0.61804697s;
+    transition: color 0.61804697s, opacity 0.61804697s;
   }
   body.highlighting a {
     text-decoration: none;
@@ -824,6 +833,7 @@ body > .index > .subtitle {
   body.highlighting.highlighting-active h6,
   body.highlighting.highlighting-active li,
   body.highlighting.highlighting-active em,
+  body.highlighting.highlighting-active pre,
   body.highlighting.highlighting-active .line-block {
     color: rgba(34, 34, 34, 0.38195303);
   }
@@ -1156,7 +1166,12 @@ body > .index > .subtitle {
 </div>
 <div class='page' data-path='/notes/land-for-leaves' data-title='land for leaves'>
 <h2 id="spinach">Spinach</h2>
-<p>The seeding rate is <a href="https://wikifarmer.com/how-to-grow-spinach-from-seeding-to-harvesting/"><em>10kg/acre</em></a>, and the average yield is around <a href="https://wikifarmer.com/how-to-grow-spinach-from-seeding-to-harvesting/"><em>2000g/m<sup>2</sup></em></a>. As organic tends to yield <a href="https://www.sciencedirect.com/science/article/pii/S0308521X1100182X"><em>80%</em></a> that of chemical methods, the average organic yield is then assumed to be <em>1600g/m<sup>2</sup>,</em> or <em>6475kg/acre</em>. For <em>30g</em> a day, one needs <em>(30×365) ÷ 1600</em>, or <strong>7m<sup>2</sup></strong>. This gives an approximation for those getting their <a href="https://www.checkyourfood.com/ingredients/ingredient/1726/spinach-powder">vitamin K from dried leaves</a>, but it’s worth noting that various leaves would normally be grown <a href="https://www.rhs.org.uk/vegetables/spinach/grow-your-own">all year round</a>, improving the yield.</p>
+<ul>
+<li><p>The <em>daily requirement</em> is <a href="https://www.checkyourfood.com/ingredients/ingredient/1726/spinach-powder">*30g when drying</a>.</p></li>
+<li><p>The <em>chemical yield</em> is <a href="https://vegetablegrowersnews.com/article/tunnels-varieties-double-uk-berry-yields/"><em>2000g/m<sup>2</sup></em></a>.</p></li>
+<li><p>The <em>organic yield</em> is <a href="/notes/land-estimation"><em>1600g/m<sup>2</sup></em></a>.</p></li>
+<li><p>The <em>land requirement</em> is <a href="/notes/land-estimation"><strong>7m<sup>2</sup></strong></a>.</p></li>
+</ul>
 </div>
 	</body>
 </html>

@@ -353,7 +353,7 @@ body {
     right: 0;
   }
   .nutrition > ul > li > ul > li > em {
-    transition: all 0.1s;
+    transition: opacity 0.1s;
   }
   .nutrition > ul > li > ul > li > em:first-of-type {
     opacity: 1;
@@ -465,18 +465,21 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+pre {
   margin-top: 0;
   font-weight: normal;
 }
 p,
 ul,
-ol {
+ol,
+pre {
   margin-bottom: 1rem;
 }
 p:last-child,
 ul:last-child,
-ol:last-child {
+ol:last-child,
+pre:last-child {
   margin-bottom: 0;
 }
 li,
@@ -517,6 +520,11 @@ h1 {
   font-size: 1.80203247rem;
   line-height: 1.98223572rem;
   margin-bottom: calc(1.98223572rem / 1.618);
+}
+pre {
+  font-size: 0.79012346rem;
+  line-height: 0.8691358rem;
+  margin-bottom: 1.1rem;
 }
 .line-block {
   white-space: nowrap;
@@ -802,9 +810,10 @@ body > .index > .subtitle {
   body.highlighting h6,
   body.highlighting li,
   body.highlighting em,
+  body.highlighting pre,
   body.highlighting .line-block {
     color: #222222;
-    transition: all 0.61804697s;
+    transition: color 0.61804697s, opacity 0.61804697s;
   }
   body.highlighting a {
     text-decoration: none;
@@ -824,6 +833,7 @@ body > .index > .subtitle {
   body.highlighting.highlighting-active h6,
   body.highlighting.highlighting-active li,
   body.highlighting.highlighting-active em,
+  body.highlighting.highlighting-active pre,
   body.highlighting.highlighting-active .line-block {
     color: rgba(34, 34, 34, 0.38195303);
   }
@@ -1156,7 +1166,12 @@ body > .index > .subtitle {
 </div>
 <div class='page' data-path='/notes/land-for-duckweed' data-title='land for duckweed'>
 <h2 id="duckweed">Duckweed</h2>
-<p>The average yield is <a href="https://juniperpublishers.com/ijesnr/IJESNR.MS.ID.555942.php"><em>7200g of dry matter/m<sup>2</sup></em></a>. As organic tends to yield <a href="https://www.sciencedirect.com/science/article/pii/S0308521X1100182X"><em>80%</em></a> that of chemical methods, the average organic yield is then assumed to be <em>5760g of dry matter/m<sup>2</sup>,</em> or <em>23,310kg of dry matter/acre</em>. For <em>1g</em> a day, one needs <em>(1×365) ÷ 5760</em>, or <strong>one square foot</strong>.</p>
+<ul>
+<li><p>The <em>daily requirement</em> is <a href="/notes/duckweed-b12"><em>8g fresh</em> or <em>1g dried</em></a>.</p></li>
+<li><p>The <em>chemical yield</em> is <a href="https://juniperpublishers.com/ijesnr/IJESNR.MS.ID.555942.php"><em>7200g of dry matter/m<sup>2</sup></em></a>.</p></li>
+<li><p>The <em>organic yield</em> is <a href="/notes/land-estimation"><em>5760g/m<sup>2</sup></em></a>.</p></li>
+<li><p>The <em>land requirement</em> is <a href="/notes/land-estimation"><strong>0.06m<sup>2</sup></strong></a>, or around <em>one square foot</em>.</p></li>
+</ul>
 </div>
 	</body>
 </html>

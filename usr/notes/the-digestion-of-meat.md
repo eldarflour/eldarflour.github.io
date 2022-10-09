@@ -20,9 +20,9 @@ and absorbed. However, on a standard modern diet, [significant quantities of
 undigested animal protein have been found entering the colon](https://nutritionfacts.org/2017/04/11/what-animal-protein-does-in-your-colon/),
 and therefore being fermented by the bacteria of the colon, and producing
 carcinogenic toxins as a result. As this diet increases the risk of
-constipation, that fermenting matter can then sit in the colon for
+constipation, that fermenting matter will then sit in the colon for
 days or weeks.
 
 While the debate regarding the mechanism will likely continue,
-the link between [colon cancer and meat consumption](https://www.bowelcanceruk.org.uk/news-and-blogs/news/new-research-says-even-moderate-red-and-processed-meat-eaters-at-risk-of-bowel-cancer/)
-is generally accepted.
+it is generally recognised that there is [a significant link](https://www.bowelcanceruk.org.uk/news-and-blogs/news/new-research-says-even-moderate-red-and-processed-meat-eaters-at-risk-of-bowel-cancer/)
+between colon cancer and the consumption of red and processed meat.
