@@ -24,5 +24,5 @@ constipation, that fermenting matter will then sit in the colon for
 days or weeks.
 
 While the debate regarding the mechanism will likely continue,
-it is generally recognised that there is [a significant link](https://www.bowelcanceruk.org.uk/news-and-blogs/news/new-research-says-even-moderate-red-and-processed-meat-eaters-at-risk-of-bowel-cancer/)
+it's generally recognised that there is [a significant link](https://www.bowelcanceruk.org.uk/news-and-blogs/news/new-research-says-even-moderate-red-and-processed-meat-eaters-at-risk-of-bowel-cancer/)
 between colon cancer and the consumption of red and processed meat.

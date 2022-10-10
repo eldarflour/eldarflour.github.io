@@ -28,7 +28,7 @@ of whether these products can be considered healthy,
 [presence](https://en.wikipedia.org/wiki/Slaughterhouse#Worker_exploitation_concerns)
 [of](https://www.bbc.co.uk/news/health-24525584)
 [various](https://en.wikipedia.org/wiki/Poultry_farming_in_the_United_States#Safety_issues)
-[nutrients](https://www.phrases.org.uk/meanings/243100.html).
+[nutrients](https://en.wiktionary.org/wiki/man_shall_not_live_by_bread_alone).
 
 Even when avoiding meat from modern sources, there are still associated
 health risks, particularly regarding [red meat, processed meat, and the

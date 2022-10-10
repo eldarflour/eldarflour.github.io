@@ -17,7 +17,7 @@
   square metre. If this doesn't apply, then it should be *0*.
 
 - The **hulled fraction**, or the amount left after removing
-  the hulls. This should be a unit interval, i.e. if *40%* is lost,
+  the hulls. This should be a unit interval, e.g. if *40%* is lost,
   and *60%* remains, then this should be *0.6*. If dehulling doesn't
   apply, then this should be *1*.
 
