@@ -32,7 +32,7 @@ of whether these products can be considered healthy,
 
 Even when avoiding meat from modern sources, there are still associated
 health risks, particularly regarding [red meat, processed meat, and the
-colon](/notes/the-digestion-of-meat).
+colon](https://www.bowelcanceruk.org.uk/news-and-blogs/news/new-research-says-even-moderate-red-and-processed-meat-eaters-at-risk-of-bowel-cancer/).
 
 Besides that, the land requirement is steep. For example, if everyone
 in [Britain](/notes/british-land-available) obtained their B~12~ from
